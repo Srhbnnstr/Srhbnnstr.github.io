@@ -9,6 +9,16 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+h1{
+  font-family: 'Titillium Web', sans-serif;
+  color: thistle;
+  letter-spacing: 3px;
+}
+h4{
+font-family: 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+letter-spacing: 1px;
+}
 .jumbotron {
     padding-top: 0;
     background-color: transparent;
@@ -88,24 +98,37 @@ nav {
 nav ul li {
     display: inline-block;
     font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 120px;
 }
 nav ul li a {
     color: thistle;
+    font-size: 18px;
+    letter-spacing: 1px;
     display: inline-block;
     text-decoration: none;
     transition-property: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
     -o-transition: all .2s linear 0s;
-    font-size: 16px;
+}
+@media screen and (max-width:98em) {
+  li {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width:80em) {
+  li {
+    padding: 40px 60px 0 60px;
+  }
 }
 @media screen and (max-width:42em) {
   nav ul li {
       display: inline-block;
-      padding: 20px 40px 0 40px;
+      padding: 40px 45px 0 45px;
+
   }
   nav ul li a {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width:32em) {
@@ -114,43 +137,110 @@ nav ul li a {
       padding: 20px 25px 0 25px;
   }
   nav ul li a {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
-
 ul, menu, dir {
   padding-left: 0px;
 }
 nav ul li a:hover {
     color: #615b9e;
 }
+.social {
+    font-size: 25px;
+    padding: 0 0 20px 0;
+    border-radius: 25px;
+}
+.social-icon {
+    width: 80px;
+    height: 50px;
+    background: #e9e9e9;
+    color: #333;
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    padding-top: 7px;
+    border-radius: 75px;
+    transition-property: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -webkit-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+}
+.social-icon:hover {
+    background: #34B484;
+    color: #f0f0f0;
+}
 .portfolio{
   height: 300px;
   width: auto;
   background-color: #d6d6d6;
   color: #3a3a3a;
-  font-family: 'Helvetica', sans-serif;
-  padding: 100px;
+  font-family: 'helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 200px;
   }
-.aboutMe {
-    padding-bottom: 10px;
-    font-family: 'Titillium Web', sans-serif;
+  .aboutMe {
+      padding: 20px 80px 0 80px;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 100;
+      font-size: 18px;
+      color: #d5d5d5;
+      display: inline-block;
+      background-color: #1a1a1a;
+      height: 100%;
+      width: auto;
+      margin: 0 40px 140px;
+      letter-spacing: 1px;
+    }
+.img-circle{
+  padding: 20px 0 0 0;
+  width: 200px;
+  height: auto;
+  display: inline-block;
 }
-#profilePic {
-  border: solid 3px rgba(120,150,255,0.4);
-  height: 300px;
-  border-radius: 25px;
+@media screen and (max-width:32em) {
+.img-circle{
+  width: 180px;
+  }
 }
-.aboutMe .paragraph {
-  margin:0px;
+  .aboutMe p{
+    padding: 40px 20px 0 0;
+  }
+#contact-form {
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  border: 2px solid #4a4a4a;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  color: thistle;
+  font-family: 'Titillium Web', sans-serif;
+
 }
-.aboutMe {
-    padding-top: 30px;
+.btn-default{
+  background-color: #4a4a4a;
+  color: #fff;
+  border: none;
 }
+.btn-default:hover{
+  background-color: thistle;
+  font-weight: bold;
+}
+.form-control{
+  border: 2px solid #4a4a4a;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+@media screen and (max-width:48em) {
+  #contact-form {
+    max-width: 300px;
+    height: auto;
+  }
+  .aboutMe {
+      padding: 10px;
+  }
 .social {
     font-size: 25px;
-    padding: 20px;
-    margin-top: 30px;
     border-radius: 25px;
 }
 .social p {
@@ -200,17 +290,10 @@ nav ul li a:hover {
   color:#f0f0f0;
   font-family: 'Titillium Web', sans-serif;
 }
-@media screen and (max-width:48em) {
-  .aboutMe .paragraph {
-    margin:0px;
-    font-size:12px;
-  }
-  #profilePic {
-    border: solid 3px rgba(120,150,255,0.4);
-    display: inline-block;
-    width: 70%;
-    height: auto;
-    border-radius: 25px;
+@media screen and (max-width:38em) {
+  .aboutMe p{
+    padding: 10px 0;
+    font-size:16px;
   }
     pro
     .social {
@@ -228,7 +311,7 @@ nav ul li a:hover {
         background: #fff;
         color: #333;
         display: block;
-        margin: 5px 0;
+        margin: 20px 0 0 0;
         border-radius: 15px;
     }
   }
