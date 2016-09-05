@@ -148,10 +148,10 @@ footer p{
 @media screen and (max-width:32em) {
   nav ul li {
       display: inline-block;
-      padding: 20px 25px 0 25px;
+      padding: 20px 10px 0 10px;
   }
   nav ul li a {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 ul, menu, dir {
@@ -314,7 +314,13 @@ label{
 @media screen and (max-width:38em) {
   .aboutMe p{
     padding: 10px 0;
+    width: 100%;
+    height: auto;
     font-size:16px;
+  }
+  #ajax-contact {
+    max-width: 200px;
+    height: auto;
   }
     pro
     .social {
