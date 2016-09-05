@@ -121,6 +121,7 @@ footer{
   letter-spacing: 2px;
   font-size: 16px;
   padding: 10px 0;
+  margin-top: 30px;
 }
 footer p{
   font-size: 14px;
@@ -148,7 +149,7 @@ footer p{
 @media screen and (max-width:32em) {
   nav ul li {
       display: inline-block;
-      padding: 20px 10px 0 10px;
+      padding: 20px 5px 0 5px;
   }
   nav ul li a {
     font-size: 12px;
@@ -198,7 +199,7 @@ nav ul li a:hover {
       padding: 20px 80px 0 80px;
       font-family: 'Helvetica Neue', sans-serif;
       font-weight: 100;
-      font-size: 18px;
+      font-size: 14px;
       color: #d5d5d5;
       display: inline-block;
       background-color: #1a1a1a;
@@ -222,10 +223,10 @@ nav ul li a:hover {
   }
 }
   .aboutMe p{
-    padding: 40px 20px 0 0;
+    padding: 40px 0 0 0;
   }
 #ajax-contact {
-  margin: 0 auto 90px;
+  margin: 0 auto;
   background-color: #1a1a1a;
   border: 2px solid #4a4a4a;
   width: 600px;
@@ -256,6 +257,7 @@ label{
   #ajax-contact {
     max-width: 300px;
     height: auto;
+    margin: 0 auto;
   }
   .aboutMe {
       padding: 10px;
@@ -317,10 +319,12 @@ label{
     width: 100%;
     height: auto;
     font-size:16px;
+    margin: 0 auto;
   }
   #ajax-contact {
-    max-width: 200px;
+    max-width: 260px;
     height: auto;
+    margin: 0 auto;
   }
     pro
     .social {
