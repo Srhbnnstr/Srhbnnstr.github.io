@@ -253,7 +253,7 @@ label{
   color: #fff;
 }
 @media screen and (max-width:48em) {
-  #contact-form {
+  #ajax-contact {
     max-width: 300px;
     height: auto;
   }
