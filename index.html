@@ -14,6 +14,8 @@
 
     <script type="text/javascript" src="scripts/app.js"></script>
 
+    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+
     <script src="https://use.fontawesome.com/ac6c6ceed0.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
@@ -23,23 +25,35 @@
 </head>
 
 <body>
-
-
+<script>
+  $(function(){
+  $("#a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash);
+  });
+});
+</script>
     <div class="jumbotron">
         <img src="jumboTest.png" class="banner fade-in one">
-
-        <nav>
+        <div id="w">
+          <div id="content">
+                <nav id="stickynav">
+                  <ul id="nav" class="fade-in three">
             <ul class="fade-in three">
-                <strong><li><a href="portfolio.html">portfolio</a></li></strong>
-                <strong> <li><a class="about" href="about.html">about</a></li></strong>
-                <strong><li><a href="contact.html">contact</a></li></strong>
+                <strong><li><a href="#portfolio">portfolio</a></li></strong>
+                <strong> <li><a href="#about">about</a></li></strong>
+                <strong><li><a href="#contact">contact</a></li></strong>
             </ul>
         </nav>
   </div>
+</div>
+</div>
+<section id="portfolio" class="section">
   <h1>PORTFOLIO</h1>
     <div class="portfolio">
       <p class="text-muted">portfolio coming soon.</p>
     </div>
+    <section id="about" class="section">
     <h1>ABOUT</h1>
     <div class="aboutMe">
       <div class="col-sm-12 col-md-4 col-lg-4">
@@ -47,8 +61,8 @@
     </div>
       <div class="col-sm-12 col-md-8 col-lg-8">
         <p>
-           Born and raised in Eugene, Oregon. I've always had a passion for technology and design and I strive to create beautiful web applications that focus
-           on user friendliness. I am a front-end web developer with a background in UX research and interaction design. Besides coding and designing, I really like nachos, dogs, and motorcycles.
+           Born and raised in Eugene, Oregon. I am a front-end web developer with a background in UX research and interaction design. I've always had a passion for technology and design and I strive to create beautiful web applications that focus
+           on user friendliness. Besides coding and designing, I really like nachos, dogs, and motorcycles.
         </p>
         <div class="social fade-in three">
             <a href="https://www.linkedin.com/in/sarahfaithbannister">
@@ -74,35 +88,36 @@
   </div>
     </div>
   </div>
+  <section id="contact" class="section">
     <div class="contact">
       <h1>CONTACT</h1>
       <h4>I'd love to hear from you!</h4>
       <div class="container-fluid">
         <div class="col-sm-12 col-md-12 col-lg-12">
-    <form id="contact-form" method="post" action="contact.php" role="form">
+    <form id="ajax-contact" method="post" action="mailer.php" role="form">
       <div class="messages"></div>
       <div class="controls">
             <div class="form-group">
-              <label for="form_name">Full Name</label>
+              <label for="name">Full Name</label>
               <input id="form_name" type="text" name="name" class="form-control" require="required" data-error="full name is required">
                 <div class="help-block with-errrors"></div>
             </div>
               <div class="form-group">
-                <label for="form_email">Email</label>
+                <label for="email">Email</label>
                 <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="vaild email is required">
                 <div class="help-block with-errors"></div>
             </div>
                 <div class="form-group">
-                    <label for="form_message">Message</label>
+                    <label for="message">Message</label>
                     <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please,leave us a message."></textarea>
                     <div class="help-block with-errors"></div>
             </div>
               <input type="submit" class="btn btn-default btn-send" value="Send message">
-            </div>
+            </div><br>
+            <p class="text-muted"><strong>*</strong> All fields are required.</p>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <p class="text-muted"><strong>*</strong> All fields are required.</p>
             </div>
           </div>
           </div>
@@ -112,7 +127,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="validator.js"></script>
     <script src="contact.js"></script>
-
+<footer>
+  &copy;2016 Sarah Bannister
+<p>Srhbnnstr@gmail.com  |  541-337-9980</p>
+</footer>
 </body>
 
 </html>
