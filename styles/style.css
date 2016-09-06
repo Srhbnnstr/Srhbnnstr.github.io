@@ -267,7 +267,10 @@ label{
     margin: 0 auto;
   }
   .aboutMe {
-      padding: 10px;
+    padding: 10px;
+  }
+  p#about {
+    margin: 0 auto;
   }
 .social {
     font-size: 25px;
