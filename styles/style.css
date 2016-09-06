@@ -210,17 +210,20 @@ nav ul li a:hover {
       letter-spacing: 1px;
       line-height: 40px;
     }
+    p#about{
+      margin: 20px 0 0 30px;
+    }
 .img-circle{
-  margin: 40px 0 50px 0;
-  width: 200px;
+  margin: 20px 10px 50px 20px;
+  width: 250px;
   height: auto;
   display: inline-block;
   border: 4px solid #333;
 }
-@media screen and (max-width:32em) {
+@media screen and (max-width:65em) {
 .img-circle{
-  width: 180px;
-  margin: 10px 0 5px 0;
+  width: 200px;
+  margin: 20px 0 5px 0;
   }
 }
 @media screen and (max-width: 38em) {
