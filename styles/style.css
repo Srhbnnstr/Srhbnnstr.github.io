@@ -66,10 +66,21 @@ nav ul li a {
   width: auto;
   background-color: #d6d6d6;
   color: #3a3a3a;
-  font-family: 'helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
+  font-size: 16px;
   padding: 150px 0;
   margin-bottom: 220px;
+}
+.portfolio .btn-default {
+  font-family: 'Titillium Web', sans-serif;
+  color: #d6d6d6;
+  background-color: #3d3d3d;
+  letter-spacing: 1px;
+}
+.portfolio .btn-default:hover {
+  background-color: #009982;
+  font-weight: bold;
 }
 
 /* about me */
@@ -232,8 +243,6 @@ nav ul li a:hover {
     color: #009982;
     text-decoration: none;
 }
-
-
 
 @media screen and (max-width:65em) {
 .img-circle{
