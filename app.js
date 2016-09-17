@@ -1,10 +1,12 @@
-/* scroll nav */
+
   $(function(){
   $("#a").click(function(e){
     e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash);
+    $('html,body').animate(this.hash,this.hash);
   });
 });
+
+
 
 /* contact form */
 $(function() {
