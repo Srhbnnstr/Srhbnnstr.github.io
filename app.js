@@ -4,9 +4,6 @@
     e.preventDefault();
     $('html,body').animate(this.hash,this.hash);
   });
-});
-
-
 
 /* contact form */
 $(function() {
