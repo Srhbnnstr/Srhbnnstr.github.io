@@ -88,11 +88,12 @@ nav ul li a {
   color: #3a3a3a;
   letter-spacing: 1px;
   padding: 20px;
+  border: 0;
 }
 .btn-default:hover {
-  border: 2px solid #34B484;
-  color: #34B484;
-  background: none;
+  color: #3a3a3a;
+  background: #34B484;
+  border: 0;
 }
 
 /* portfolio */
