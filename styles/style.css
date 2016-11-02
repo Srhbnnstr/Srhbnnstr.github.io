@@ -47,6 +47,7 @@ a:focus, a:hover{
     width: 100%;
     height: auto;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 li {
     padding: 40px 65px 0 65px;
@@ -55,6 +56,7 @@ li {
 .navbar-fixed-top{
   border: 0;
   padding-bottom: 20px;
+  margin-bottom: 40px;
   height: 10%;
 }
 nav {
@@ -218,22 +220,22 @@ footer p{
     animation-duration: 2s;
 }
 .fade-in.one {
-    -webkit-animation-delay: 0.2s;
-    -moz-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
 }
 .fade-in.two {
-    -webkit-animation-delay: 1.1s;
-    -moz-animation-delay: 1.3s;
-    animation-delay: 1.1s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
     margin: 0;
     text-decoration: none;
     list-style: none;
 }
 .fade-in.three {
-    -webkit-animation-delay: 0.1s;
-    -moz-animation-delay: 0.1s;
-    animation-delay: 0.1s;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    animation-delay: .5s;
     background-color: #000;
 }
 
@@ -269,12 +271,15 @@ footer p{
   }
   nav ul li a {
     font-size: 14px;
+    font-weight: 200;
   }
   h1{
     font-size: 18px;
+    font-weight: 200;
   }
   h2{
     font-size: 16px;
+    font-weight: 200;
   }
 }
 ul, menu, dir {
@@ -333,6 +338,7 @@ label{
   }
   p#about {
     margin: 0 auto;
+    font-weight: 200;
   }
 .social {
     font-size: 25px;
@@ -379,7 +385,7 @@ label{
     width: 100%;
     height: auto;
     font-size:13px;
-    font-weight: 100;
+    font-weight: 200;
     margin: 0 auto;
   }
   #contact {
