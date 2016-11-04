@@ -59,6 +59,10 @@ img{
   color: #fff;
   border: 2px solid #fff;
 }
+#resume:hover {
+  background: #7f2852;
+  color: #fff;
+}
 
 
 /****** NAVBAR ******/
