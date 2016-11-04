@@ -56,8 +56,8 @@ img{
 }
 .btn-default:hover {
   background: none;
-  color: #7f2852;
-  border: 2px solid #7f2852;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 
@@ -181,6 +181,7 @@ nav ul li a {
 }*/
 #portfolio{
   height: 100%;
+  position: relative;
   width: auto;
   background-color: #fff;
   color: #fff;
@@ -198,6 +199,10 @@ nav ul li a {
   height: auto;
   display: inline-block;
   position: relative;
+}
+#portfolio h2 .project{
+  position: absolute;
+  color: #fff;
 }
 
 /****** ABOUT ME ******/
