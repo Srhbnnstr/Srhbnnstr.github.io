@@ -1,46 +1,68 @@
+/****** GENERAL ******/
+
 body {
-    background-color: black;
-    margin: -5px;
+    background-color: white;
     top: 0;
-    background: #000;
     overflow: auto;
     z-index: 99;
-    color: #e9e9e9;
+    color: #fff;
     text-align: center;
+    padding: 0;
     margin: 0 auto;
 }
 h1{
   font-family: 'Helvetica Neue', sans-serif;
-  color: thistle;
+  color: #DBBE9C;
   letter-spacing: 3px;
   font-weight: 100;
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
-  color: thistle;
+  color: #fff;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+h3{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #fff;
   letter-spacing: 3px;
   font-weight: 100;
 }
 h4{
 font-family: 'Helvetica Neue', sans-serif;
 font-weight: lighter;
-color: #e9e9e9;
+color: #fff;
 letter-spacing: 1px;
 margin-bottom: 10px;
 }
 hr{
   width: 50%;
-  border-color: thistle;
-  margin-bottom: 50px;
+  border-color: #fff;
+  margin-bottom: 20px;
 }
+img{
+  padding: 0;
+}
+.btn-default {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 20px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-default:hover {
+  background: none;
+  color: #5a5a5a;
+  border: 2px solid #5a5a5a;
+}
+
+
+/****** NAVBAR ******/
+
 a:focus, a:hover{
   text-decoration: none;
-}
-.jumbotron {
-    padding-top: 0;
-    background-color: transparent;
-    border: 20px solid black;
-    margin: 0 0 200px 0;
 }
 .banner {
     width: 100%;
@@ -55,6 +77,7 @@ li {
 .navbar-fixed-top{
   border: 0;
   height: 10%;
+  color: #c14da4;
 }
 nav {
     text-align: center;
@@ -66,11 +89,12 @@ nav {
 }
 nav ul li {
     display: inline-block;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 nav ul li a {
-    color: thistle;
-    font-size: 18px;
+    color: #c14da4;
+    font-size: 16px;
+    font-weight: 200;
     letter-spacing: 2px;
     padding-bottom: 30%;
     display: inline-block;
@@ -80,26 +104,134 @@ nav ul li a {
     -webkit-transition: all .2s linear 0s;
     -o-transition: all .2s linear 0s;
 }
-.btn-default {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
-  background: thistle;
-  color: #3a3a3a;
+
+/****** JUMBOTRON ******/
+
+#hero{
+  position: absolute;
+  bottom: 10%;
+  padding: 0 10% 13% 5%;
+  float: left;
+  font-family: 'Lust', serif;
+  font-weight: bold;
   letter-spacing: 1px;
-  padding: 20px;
+  font-size: 450%;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  line-height: 150%;
+}
+#subtext{
+  position: absolute;
+  bottom: 10%;
+  padding: 5% 10% 10% 5%;
+  font-family: 'Helvetica Neue', serif;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-size: 40%;
+  color: #DBBE9C;
+  max-width: 100%;
+  height: auto;
+  line-height: 150%;
+}
+@media only screen and (min-width: 70em){
+#hero{
+  font-size: 600%;
+}
+}
+@media only screen and (max-width: 55em){
+#hero{
+  font-size: 360%;
+}
+}
+@media only screen and (max-width: 48em){
+#hero{
+  bottom: 20%;
+  padding: 0 5% 10% 5%;
+  float: left;
+  font-family: 'Sarina', serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 230%;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  line-height: 150%;
+}
+#subtext{
+  text-align: center;
+  font-family: 'Helvetica Neue', serif;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-size: 40%;
+  color: #DBBE9C;
+  max-width: 100%;
+  height: auto;
+  font-weight: 200;
+  line-height: 150%;
+}
+}
+@media only screen and (max-width: 32em){
+  #hero{
+    bottom: 20%;
+    padding: 0 10% 10% 5%;
+    float: left;
+    font-family: 'Sarina', serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 180%;
+    color: #fff;
+    max-width: 100%;
+    height: auto;
+    line-height: 150%;
+}
+#subtext{
+  text-align: center;
+  font-family: 'Helvetica Neue', serif;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-size: 60%;
+  color: #DBBE9C;
+  max-width: 100%;
+  height: auto;
+  font-weight: 200;
+  line-height: 150%;
+}
+}
+.jumbotron {
+    padding-top: 0;
+    background-color: transparent;
+    border: 20px solid #fff;
+    border-bottom: 0;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 0;
+}
+@media only screen and (max-width: 40em){
+.banner{
+  height: 300px;
+  width: 100%;
+}
+.jumbotron{
   border: 0;
 }
-.btn-default:hover {
-  color: #3a3a3a;
-  background: #34B484;
-  border: 0;
 }
 
-/* portfolio */
+/****** PORTFOLIO ******/
+
+/*#sideShape{
+  border: 0;
+  display: block;
+  margin-top: -630px;
+  position: inherit;
+  max-height: 50%;
+  width: auto;
+  padding: 0;
+}*/
 .portfolio{
   height: 100%;
   width: auto;
-  background-color: #d6d6d6;
+  background-color: #fff;
   color: #3a3a3a;
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
@@ -114,17 +246,26 @@ nav ul li a {
 .portfolio h2{
   color: #3a3a3a;
 }
+.hex{
+  max-width: 60%;
+  height: auto;
+  display: inline-block;
+  position: relative
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
 
-/* about me */
+/****** ABOUT ME ******/
 
 .aboutMe {
   padding: 0 40px 50px 40px;
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 100;
   font-size: 14px;
-  color: #d5d5d5;
+  color: #DBBE9C;
   display: inline-block;
-  background-color: #1a1a1a;
+  background-color: #fff;
   height: 100%;
   width: auto;
   margin: 0 40px 300px;
@@ -134,6 +275,7 @@ nav ul li a {
 p#about{
   margin: 20px 0 0 30px;
   font-size: 16px;
+  orphans: 3;
 }
 .img-circle{
   margin: 20px;
@@ -144,13 +286,17 @@ p#about{
 }
 .social {
     font-size: 25px;
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
+}
+.social h4{
+
 }
 .social-icon {
     width: 80px;
     height: 50px;
-    color: thistle;
+    color: #fff;
     display: inline-block;
+    font-size: 2em;
     margin: 20px 10px 0 0;
     padding-top: 7px;
     border-radius: 75px;
@@ -163,22 +309,7 @@ p#about{
     color: #009982;
 }
 
-/* footer */
 
-footer{
-  height: 40px;
-  width: 100%;
-  color: #e9e9e9;
-  font-family: 'Helvetica Neue', sans-serif;
-  letter-spacing: 2px;
-  font-size: 1em;
-  font-weight: 100;
-  padding: 10px 0;
-  margin: 20px 0;
-}
-footer p{
-  font-size: .8em;
-}
 /* fade animation */
 
 @-webkit-keyframes fadeIn {
@@ -221,6 +352,7 @@ footer p{
     -webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
     animation-delay: 2s;
+
 }
 .fade-in.two {
     -webkit-animation-delay: 2s;
@@ -234,12 +366,12 @@ footer p{
     -webkit-animation-delay: .5s;
     -moz-animation-delay: .5s;
     animation-delay: .5s;
-    background-color: #000;
+    background-color: #fff;
 }
 
 @media screen and (max-width:98em) {
   li {
-    padding-bottom: 20px;
+    padding: 40px 90px 20px 90px;
   }
 }
 @media screen and (max-width:80em) {
@@ -247,12 +379,20 @@ footer p{
     padding: 40px 60px 0 60px;
   }
 }
+@media screen and (max-width:45em) {
+li{
+  padding: 30px 20px 0 20px;
+}
+}
 @media screen and (max-width:42em) {
   nav ul li {
       display: inline-block;
   }
   nav ul li a {
     font-size: 15px;
+  }
+  li{
+    padding: 30px 10px 0 10px;
   }
   .navbar-fixed-top{
     padding-bottom: 20px;
@@ -295,13 +435,15 @@ nav ul li a:hover {
 }
 #contact {
   margin: 0 auto;
-  background-color: #1a1a1a;
+  background-color: #DBBE9C;
   width: 100%;
   height: auto;
   padding: 20px;
-  color: thistle;
   letter-spacing: 2px;
   font-family: 'Titillium Web', sans-serif;
+}
+#chat{
+  color: #fff;
 }
 .email {
   color: #e9e9e9;
@@ -315,14 +457,8 @@ nav ul li a:hover {
 label{
   font-size: 16px;
 }
-.form-control{
-  border: 2px solid #4a4a4a;
-  background-color: #1a1a1a;
-  color: #fff;
-}
 @media screen and (max-width:48em) {
   #contact {
-    max-width: 500px;
     height: auto;
     margin: 0 auto;
   }
@@ -352,26 +488,24 @@ label{
 .social-icon {
     width: 80px;
     height: 50px;
-    color: thistle;
+    color: #fff;
     display: inline-block;
     margin: 20px 10px 0 10px;
     padding-top: 7px;
-    border-radius: 75px;
     transition-property: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
     -o-transition: all .2s linear 0s;
 }
 .social-icon:hover {
-    background: #34B484;
-    color: #f0f0f0;
+    color: #5a5a5a;
 }
 .social-icon h3 {
     margin-top: 12px;
 }
 @media screen and (max-width:38em) {
   .jumbotron {
-      margin: 20px 0 300px 0;
+      margin: 20px 0 20px 0;
   }
   .aboutMe p{
     padding: 10px 0;
@@ -386,12 +520,7 @@ label{
     width: auto;
   }
   .btn-default {
-    font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
-    background: thistle;
-    color: #3a3a3a;
-    letter-spacing: 1px;
-    padding: 10px;
   }
 }
     .social {
@@ -403,8 +532,25 @@ label{
     .social-icon {
         width: 20%;
         height: 50px;
-        color: thistle;
+        color: #fff;
+        font-size: 1.2em;
         display: inline-block;
         margin: 20px 0 0 0;
         border-radius: 15px;
+    }
+    /****** FOOTER ******/
+
+    footer{
+      height: 40px;
+      width: 100%;
+      color: #5a5a5a;
+      font-family: 'Helvetica Neue', sans-serif;
+      letter-spacing: 2px;
+      font-size: 1em;
+      font-weight: 200;
+      padding: 10px 0;
+      margin: 20px 0;
+    }
+    footer p{
+      font-size: .8em;
     }
