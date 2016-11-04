@@ -145,7 +145,7 @@ nav ul li a {
     letter-spacing: 1px;
     bottom: 23%;
     padding: 0 10% 13% 5%;
-    font-size: 270%;
+    font-size: 210%;
   }
   #subtext{
     position: absolute;
@@ -153,6 +153,7 @@ nav ul li a {
     padding: 5% 10% 10% 5%;
     font-size: 45%;
     letter-spacing: 2px;
+    font-weight: 200;
 }
 }
 .jumbotron {
@@ -199,7 +200,7 @@ nav ul li a {
   color: #7f2852;
 }
 .hex{
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   display: inline-block;
   position: relative;
