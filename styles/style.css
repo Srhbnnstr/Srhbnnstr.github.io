@@ -55,11 +55,11 @@ img{
   border: 2px solid #7f2852;
 }
 .btn-default:hover {
-  background: none;
+  border: 2px solid #7f2852;
   color: #fff;
-  border: 2px solid #fff;
+  background: #7f2852;
 }
-#resume:hover {
+#resume.btn-default:hover {
   background: #7f2852;
   color: #fff;
 }
