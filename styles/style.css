@@ -151,9 +151,9 @@ nav ul li a {
     position: absolute;
     bottom: 22%;
     padding: 5% 10% 10% 5%;
-    font-size: 45%;
+    font-size: 48%;
     letter-spacing: 2px;
-    font-weight: 200;
+    font-weight: 300;
 }
 }
 .jumbotron {
@@ -204,6 +204,9 @@ nav ul li a {
   height: auto;
   display: inline-block;
   position: relative;
+}
+.img{
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 #portfolio h2 .project{
   position: absolute;
