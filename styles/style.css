@@ -115,7 +115,7 @@ ul, menu, dir {
   padding-left: 0px;
 }
 nav ul li a:hover {
-    color: #009982;
+    color: #c18c4f;
     text-decoration: none;
 }
 
@@ -176,18 +176,18 @@ li{
   padding: 0 10% 13% 5%;
   float: left;
   font-family: 'Lust', serif;
-  font-weight: 900;
-  letter-spacing: 3px;
+  font-weight: bold;
   color: #fff;
   max-width: 100%;
   height: auto;
   line-height: 150%;
+  letter-spacing: 0;
 }
 #subtext{
   position: absolute;
   bottom: 10%;
   padding: 5% 10% 10% 5%;
-  font-family: 'Helvetica Neue', serif;
+  font-family: 'Avenir', serif;
   letter-spacing: 4px;
   font-weight: 100;
   font-size: 40%;
@@ -238,7 +238,6 @@ li{
   width: auto;
   background-color: #fff;
   color: #fff;
-  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   font-size: 180%;
   padding: 130px 0;
@@ -264,6 +263,7 @@ li{
   padding: 0 20px;
 }
 a.overlay{
+  font-family: 'Avenir', sans-serif;
   position: absolute;
   display: block;
   color: #fff;
@@ -284,10 +284,7 @@ a:hover {
 
 .aboutMe {
   padding: 0 40px 50px 40px;
-  font-family: 'Helvetica Neue', sans-serif;
   font-weight: 100;
-
-  color: #DBBE9C;
   display: inline-block;
   background-color: #fff;
   height: 100%;
@@ -297,7 +294,8 @@ a:hover {
   line-height: 40px;
 }
 p#about{
-  margin: 0 0 0 30px;
+  margin: 20px 0 0 30px;
+  font-family: 'Avenir', sans-serif;
   font-size: 16px;
   color: #4a4a4a;
 }
