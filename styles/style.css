@@ -1,10 +1,63 @@
+/* fade animation */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    opacity: 0;
+    -webkit-animation: fadeIn ease-in 2s;
+    -moz-animation: fadeIn ease-in 2s;
+    animation: fadeIn ease-in 2s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.fade-in.one {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+
+}
+.fade-in.two {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
 /****** GENERAL ******/
 
 body {
     background-color: white;
     top: 0;
     overflow: auto;
-    z-index: 99;
     text-align: center;
     padding: 0;
     margin: 0 auto;
@@ -50,7 +103,6 @@ a{
 }
 a:hover{
   color: #c18c4f;
-  text-decoration: underline;
 }
 .btn-default {
   font-family: 'Helvetica Neue', sans-serif;
@@ -78,10 +130,9 @@ a:focus, a:hover{
   text-decoration: none;
 }
 .banner {
-    width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    margin-top: 20px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
 }
 li {
     padding: 40px 65px 0 65px;
@@ -92,6 +143,7 @@ li {
   margin-bottom: 40px;
   height: 10%;
   color: #7f2852;
+  background: #fff;
 }
 nav {
     text-align: center;
@@ -275,13 +327,13 @@ a.overlay{
   display: block;
   color: #fff;
   text-align: center;
-  bottom: 30%;
-  padding: 0 10% 10% 5%;
+  bottom: 25%;
+  padding: 0 10% 10% 10%;
   letter-spacing: 4px;
   width: 100%;
   height: auto;
   font-weight: normal;
-  font-size: 40%;
+  font-size: 50%;
 }
 a.overlay:hover {
   color: #7f2852;
@@ -335,7 +387,11 @@ p#about{
   height: auto;
   padding: 20px;
   letter-spacing: 2px;
-  font-family: 'Titillium Web', sans-serif;
+}
+#contact h4{
+  font-family: 'Avenir', serif;
+  font-weight: lighter;
+  font-size: 16px;
 }
 #chat{
   color: #7f2852;
@@ -352,60 +408,6 @@ p#about{
 label{
   font-size: 16px;
 }
-
-/* fade animation */
-
-@-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-@-moz-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-.fade-in {
-    opacity: 0;
-    -webkit-animation: fadeIn ease-in 2s;
-    -moz-animation: fadeIn ease-in 2s;
-    animation: fadeIn ease-in 2s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    animation-duration: 2s;
-}
-.fade-in.one {
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    animation-delay: 2s;
-
-}
-.fade-in.two {
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    animation-delay: 2s;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-}
-
 @media screen and (max-width: 38em) {
   .aboutMe{
     padding: 40px 0 40px 0;
