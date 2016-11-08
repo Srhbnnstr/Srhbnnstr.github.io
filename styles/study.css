@@ -178,7 +178,7 @@ li{
 
 #hero{
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   padding: 0 10% 13% 5%;
   float: left;
   font-family: 'Avenir', serif;
@@ -188,37 +188,20 @@ li{
   max-width: 100%;
   height: auto;
   line-height: 150%;
+  margin-bottom: 30px;
 }
 #subtext{
   position: absolute;
-  bottom: 10%;
-  padding: 5% 10% 10% 5%;
-  font-family: 'Helvetica Neue', serif;
+  text-align: left;
+  bottom: 20%;
+  padding: 5%;
+  font-family: 'Avenir', serif;
   letter-spacing: 4px;
-  font-weight: 100;
   font-size: 40%;
   color: #DBBE9C;
   max-width: 100%;
   height: auto;
   line-height: 150%;
-}
-@media only screen and (max-width: 32em){
-  #hero{
-    position: absolute;
-    letter-spacing: 1px;
-    bottom: 23%;
-    padding: 0 10% 13% 5%;
-    font-size: 210%;
-    font-weight: 100;
-  }
-  #subtext{
-    position: absolute;
-    bottom: 22%;
-    padding: 5% 10% 10% 5%;
-    font-size: 48%;
-    letter-spacing: 2px;
-    font-weight: 300;
-}
 }
 .jumbotron {
     padding: 0;
@@ -272,20 +255,23 @@ p.context{
 .col-centered {
     display:inline-block;
     float:none;
-    /* reset the text-align */
     text-align:left;
-    /* inline-block space fix */
     margin-right:-4px;
 }
 .col-fixed {
-    /* custom width */
     width:320px;
 }
 .col-min {
-    /* custom min width */
     min-width:320px;
 }
 .col-max {
-    /* custom max width */
     max-width:320px;
+}
+@media only screen and (max-width: 42em){
+  .col-centered {
+      display: block;
+      float:none;
+      text-align: center;
+      margin-right:-4px;
+  }
 }
