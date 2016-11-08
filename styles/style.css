@@ -45,6 +45,13 @@ hr{
 img{
   padding: 0;
 }
+a{
+  color: #7f2852;
+}
+a:hover{
+  color: #c18c4f;
+  text-decoration: underline;
+}
 .btn-default {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 18px;
@@ -276,7 +283,7 @@ a.overlay{
   font-weight: normal;
   font-size: 40%;
 }
-a:hover {
+a.overlay:hover {
   color: #7f2852;
   font-weight: bolder;
 }
@@ -398,12 +405,7 @@ label{
     text-decoration: none;
     list-style: none;
 }
-.fade-in.three {
-    -webkit-animation-delay: .5s;
-    -moz-animation-delay: .5s;
-    animation-delay: .5s;
-    background-color: #fff;
-}
+
 @media screen and (max-width: 38em) {
   .aboutMe{
     padding: 40px 0 40px 0;
