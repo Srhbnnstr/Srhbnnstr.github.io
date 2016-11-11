@@ -64,19 +64,19 @@ body {
 }
 h1{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 100;
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #DBBE9C;
   letter-spacing: 3px;
   font-weight: 100;
 }
 h3{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #DBBE9C;
   letter-spacing: 3px;
   font-weight: 100;
 }
@@ -92,7 +92,7 @@ p{
 }
 hr{
   width: 50%;
-  border-color: #7f2852;
+  border-color: #4a4a4a;
   margin-bottom: 20px;
 }
 img{
@@ -110,16 +110,15 @@ a:hover{
   letter-spacing: 1px;
   padding: 20px;
   background: none;
-  color: #7f2852;
-  border: 2px solid #7f2852;
+  color: #4a4a4a;
+  border: 2px solid #4a4a4a;
 }
 .btn-default:hover {
-  border: 2px solid #7f2852;
+  border: 2px solid #fff;
   color: #fff;
-  background: #7f2852;
 }
 #resume.btn-default:hover {
-  background: #7f2852;
+  background: #DBBE9C;
   color: #fff;
 }
 
@@ -142,7 +141,7 @@ li {
   border: 0;
   margin-bottom: 40px;
   height: 10%;
-  color: #7f2852;
+  color: #d6aa77;
   background: #fff;
 }
 nav {
@@ -158,7 +157,7 @@ nav ul li {
     font-family: 'Helvetica Neue', sans-serif;
 }
 nav ul li a {
-    color: #7f2852;
+    color: #d6aa77;
     font-size: 16px;
     font-weight: 200;
     letter-spacing: 2px;
@@ -174,7 +173,7 @@ ul, menu, dir {
   padding-left: 0px;
 }
 nav ul li a:hover {
-    color: #c18c4f;
+    color: #4a4a4a;
     text-decoration: none;
 }
 
@@ -234,8 +233,7 @@ li{
   bottom: 10%;
   padding: 0 10% 13% 5%;
   float: left;
-  font-family: 'Lust', serif;
-  font-weight: bold;
+  font-family: 'Permanent Marker', serif;
   color: #fff;
   max-width: 100%;
   height: auto;
@@ -244,16 +242,22 @@ li{
 }
 #subtext{
   position: absolute;
-  bottom: 10%;
+  bottom: 14%;
   padding: 5% 10% 10% 5%;
   font-family: 'Avenir', serif;
   letter-spacing: 4px;
   font-weight: 100;
-  font-size: 40%;
-  color: #DBBE9C;
+  font-size: 25%;
+  letter-spacing: 5px;
+  color: #d6aa77;
   max-width: 100%;
   height: auto;
   line-height: 150%;
+}
+@media only screen and (max-width: 45em){
+#subtext{
+  letter-spacing: 3px;
+}
 }
 @media only screen and (max-width: 32em){
   #hero{
@@ -305,11 +309,91 @@ li{
 #portfolio h2{
   color: #7f2852;
 }
-.hex{
+.img-responsive{
   max-width: 100%;
   height: auto;
   display: inline-block;
   position: relative;
+}
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
 }
 #hexTitle{
   position: absolute;
@@ -321,7 +405,16 @@ li{
   margin: 0 auto;
   padding: 0 20px;
 }
-a.overlay{
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.caption{
   font-family: 'Avenir', sans-serif;
   position: absolute;
   display: block;
@@ -335,10 +428,6 @@ a.overlay{
   font-weight: normal;
   font-size: 50%;
 }
-a.overlay:hover {
-  color: #7f2852;
-  font-weight: bolder;
-}
 /****** ABOUT ME ******/
 
 .aboutMe {
@@ -348,7 +437,7 @@ a.overlay:hover {
   background-color: #fff;
   height: 100%;
   width: auto;
-  margin: 0 40px 300px;
+  margin: 200px 0 300px;
   letter-spacing: 1px;
   line-height: 40px;
 }
@@ -365,45 +454,62 @@ p#about{
   display: inline-block;
   border: 4px solid #e9e9e9;
 }
+
 .social-icon {
     width: 80px;
     height: 50px;
-    color: #7f2852;
+    color: #fff;
     display: inline-block;
     font-size: 2em;
     margin: 5px 10px 0 0;
     padding-top: 7px;
 }
 .social-icon:hover {
-    color: #c18c4f;
+    color: #DBBE9C;
 }
 
 /****** CONTACT ******/
 
 #contact {
   margin: 0 auto;
-  background-color: #c18c4f;
   width: 80%;
   height: auto;
   padding: 20px;
   letter-spacing: 2px;
+  background-color: #fff;
 }
 #contact h4{
   font-family: 'Avenir', serif;
   font-weight: lighter;
   font-size: 16px;
+  color: #4a4a4a;
 }
 #chat{
-  color: #7f2852;
+  color: #4a4a4a;
+  margin-bottom: 25px;
 }
 .email {
-  color: #7f2852;
+  color: #DBBE9C;
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 100;
   font-size: 18px;
 }
+.emailMe{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 20px;
+    background: none;
+    color: #d6aa77;
+    border: 2px solid #d6aa77;
+}
+.emailMe:hover{
+  background: #d6aa77;
+  border: 2px solid #d6aa77;
+  color: #fff;
+}
 .email:hover{
-  color: #bc7aac;
+  color: #d6aa77;
 }
 label{
   font-size: 16px;
@@ -435,11 +541,10 @@ label{
 }
 .social {
     font-size: 25px;
-    border-radius: 25px;
+    padding-bottom: 20px;
 }
 .social p {
     margin: 0 20px;
-    padding: 20px 40px 5px 40px;
     line-height: 30px;
     font-size: 16px;
 }
@@ -496,6 +601,7 @@ label{
       height: 20px;
       width: 100%;
       color: #5a5a5a;
+
       font-family: 'Helvetica Neue', sans-serif;
       letter-spacing: 2px;
       font-size: 110%;
@@ -512,5 +618,5 @@ label{
     footer .social {
         font-size: 25px;
         padding: 10px 0 10px 0;
-        margin-bottom: 20px;
+        background: #5a5a5a;
     }
