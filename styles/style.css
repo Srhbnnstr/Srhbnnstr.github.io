@@ -70,7 +70,7 @@ h1{
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #DBBE9C;
+  color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 100;
 }
@@ -92,18 +92,18 @@ p{
 }
 hr{
   width: 50%;
-  border-color: #4a4a4a;
+  border-color: #c18c4f;
   margin-bottom: 20px;
 }
 img{
   padding: 0;
 }
 a{
-  color: #95dbd5;
+  color: #f7cdcd;
   font-weight: bold;
 }
 a:hover{
-  color: #c18c4f;
+  color: #f2abab;
 }
 .btn-default {
   font-family: 'Helvetica Neue', sans-serif;
@@ -112,14 +112,14 @@ a:hover{
   padding: 20px;
   background: none;
   margin-top: 2%;
-  color: #4a4a4a;
-  background: #95dbd5;
-  border: 2px solid #95dbd5;
+  color: #fff;
+  background: #d6aa77;
+  border: 2px solid #d6aa77;
 }
 .btn-default:hover{
-  color: #4a4a4a;
-  background: #95dbd5;
-  border: 2px solid #95dbd5;
+  color: #fff;
+  background: #d6aa77;
+  border: 2px solid #d6aa77;
 }
 
 /****** NAVBAR ******/
@@ -306,7 +306,7 @@ li{
   margin: 70% 0 140% 0;
 }
 #portfolio h2{
-  color: #7f2852;
+  color: #d6aa77;
 }
 .img-responsive{
   max-width: 100%;
