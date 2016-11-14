@@ -303,7 +303,12 @@ li{
   text-align: center;
   font-size: 180%;
   padding: 130px 0;
-  margin: 70% 0 140% 0;
+  margin: 70% 0 60% 0;
+}
+@media only screen and (max-width: 45em){
+#portfolio{
+  margin: 70% 0 160% 0;
+}
 }
 #portfolio h2{
   color: #d6aa77;
@@ -559,20 +564,6 @@ li{
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 100;
   font-size: 18px;
-}
-.emailMe{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    letter-spacing: 1px;
-    padding: 20px;
-    background: none;
-    color: #d6aa77;
-    border: 2px solid #d6aa77;
-}
-.emailMe:hover{
-  background: #d6aa77;
-  border: 2px solid #d6aa77;
-  color: #fff;
 }
 .email:hover{
   color: #d6aa77;
