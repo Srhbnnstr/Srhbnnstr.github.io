@@ -99,7 +99,8 @@ img{
   padding: 0;
 }
 a{
-  color: #7f2852;
+  color: #95dbd5;
+  font-weight: bold;
 }
 a:hover{
   color: #c18c4f;
@@ -110,18 +111,16 @@ a:hover{
   letter-spacing: 1px;
   padding: 20px;
   background: none;
-  color: #d6aa77;
-  border: 2px solid #d6aa77;
+  margin-top: 2%;
+  color: #4a4a4a;
+  background: #95dbd5;
+  border: 2px solid #95dbd5;
 }
-.btn-default:hover {
-  border: 2px solid #fff;
-  color: #fff;
+.btn-default:hover{
+  color: #4a4a4a;
+  background: #95dbd5;
+  border: 2px solid #95dbd5;
 }
-#resume.btn-default:hover {
-  background: #DBBE9C;
-  color: #fff;
-}
-
 
 /****** NAVBAR ******/
 
@@ -297,14 +296,14 @@ li{
 
 
 #portfolio{
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
   background-color: #fff;
   color: #fff;
   text-align: center;
   font-size: 180%;
   padding: 130px 0;
-  margin: 300px 0;
+  margin: 70% 0 140% 0;
 }
 #portfolio h2{
   color: #7f2852;
@@ -395,6 +394,15 @@ li{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
 #hexTitle{
   position: absolute;
   text-align: center;
@@ -405,22 +413,13 @@ li{
   margin: 0 auto;
   padding: 0 20px;
 }
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-}
 .caption{
   font-family: 'Avenir', sans-serif;
   position: absolute;
   display: block;
   color: #fff;
   text-align: center;
-  bottom: 25%;
+  bottom: 23%;
   padding: 0 10% 10% 10%;
   letter-spacing: 4px;
   width: 100%;
@@ -441,20 +440,87 @@ li{
   letter-spacing: 1px;
   line-height: 40px;
 }
-p#about{
+#about{
   margin: 20px 0 0 30px;
   font-family: 'Avenir', sans-serif;
-  font-size: 16px;
-  color: #4a4a4a;
-}
-.img-circle{
-  margin-top: 120px;
-  width: 250px;
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  bottom: 10%;
+  padding: 4% 5% 15% 0;
+  max-width: 100%;
   height: auto;
-  display: inline-block;
-  border: 4px solid #e9e9e9;
+  line-height: 150%;
+  letter-spacing: 2;
 }
-
+@media screen and (max-width:70em) {
+#about{
+  font-size: 16px;
+  max-width: 100%;
+  height: auto;
+  padding: 0% 5% 12% 0;
+}
+}
+@media screen and (max-width:60em) {
+#about{
+  font-size: 16px;
+  max-width: 100%;
+  height: auto;
+  padding: 0% 5% 8% 0;
+}
+}
+@media screen and (max-width:58em) {
+#about{
+  font-size: 16px;
+  max-width: 100%;
+  height: auto;
+  padding: 4% 0% 6% 0;
+}
+}
+@media screen and (max-width:50em) {
+#about{
+  font-size: 16px;
+  max-width: 100%;
+  height: auto;
+  padding: 0% 3% 0% 0;
+}
+}
+@media screen and (max-width:43em) {
+#about{
+  position: relative;
+  font-family: 'Avenir', sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 5% 20% 0 0;
+  margin: 0;
+}
+}
+.portrait{
+  max-width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  background-color:rgba(0,0,0,0.6);
+  opacity: .7;
+  position: relative;
+}
+@media screen and (max-width:38em) {
+.portrait{
+  max-width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+  background-color:rgba(0,0,0,0.6);
+  opacity: .7;
+  position: relative;
+}
+}
+.img-container{
+    background-color: #000000;
+}
 .social-icon {
     width: 80px;
     height: 50px;
@@ -485,7 +551,7 @@ p#about{
   color: #4a4a4a;
 }
 #chat{
-  color: #4a4a4a;
+  color: #d6aa77;
   margin-bottom: 25px;
 }
 .email {
