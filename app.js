@@ -1,6 +1,12 @@
-
-  $(function(){
-  $("#a").click(function(e){
-    e.preventDefault();
-    $('html,body').animate(this.hash,this.hash);
-  });
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top
+        }, 1000, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
