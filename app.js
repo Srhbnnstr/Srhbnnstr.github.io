@@ -1,3 +1,5 @@
+/* smooth scroll */
+
 $(document).ready(function(){
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();
@@ -10,6 +12,8 @@ $(document).ready(function(){
         });
     });
 });
+
+/* back to top */
 
 $(document).ready(function(){
      $(window).scroll(function () {
