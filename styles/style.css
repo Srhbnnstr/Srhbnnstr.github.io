@@ -121,6 +121,12 @@ a:hover{
   background: #d6aa77;
   border: 2px solid #d6aa77;
 }
+.btn-default:active{
+  color: #fff;
+  background: #d6aa77;
+  border: 2px solid #d6aa77;
+}
+
 
 /****** NAVBAR ******/
 
@@ -449,7 +455,7 @@ li{
   margin: 20px 0 0 30px;
   font-family: 'Avenir', sans-serif;
   font-size: 18px;
-  color: #fff;
+  color: #e2e2e2;
   position: absolute;
   bottom: 10%;
   padding: 4% 5% 15% 0;
