@@ -4,4 +4,3 @@
     e.preventDefault();
     $('html,body').animate(this.hash,this.hash);
   });
-  
