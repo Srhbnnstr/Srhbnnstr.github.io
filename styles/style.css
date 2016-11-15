@@ -692,3 +692,7 @@ label{
         background-color: #5a5a5a;
         border: solid 2px #fff;
     }
+    @media screen and (max-width: 40em){
+      .back-to-top {
+          bottom: 3px;
+      }
