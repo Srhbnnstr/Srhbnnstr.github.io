@@ -12,20 +12,20 @@ body {
 }
 h1{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 100;
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 100;
   text-align: center;
 }
 h3{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 100;
 }
@@ -38,7 +38,7 @@ margin-bottom: 10px;
 }
 h5{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #7f2852;
+  color: #d6aa77;
   letter-spacing: 3px;
   margin-left: 10%;
 }
@@ -89,7 +89,7 @@ li {
 .navbar-fixed-top{
   border: 0;
   height: 10%;
-  color: #7f2852;
+  color: #d6aa77;
   background: #fff;
 }
 nav {
@@ -105,7 +105,7 @@ nav ul li {
     font-family: 'Helvetica Neue', sans-serif;
 }
 nav ul li a {
-    color: #7f2852;
+    color: #d6aa77;
     font-size: 16px;
     font-weight: 200;
     letter-spacing: 2px;
@@ -121,7 +121,7 @@ ul, menu, dir {
   padding-left: 0px;
 }
 nav ul li a:hover {
-    color: #c18c4f;
+    color: #4a4a4a;
     text-decoration: none;
 }
 
