@@ -301,7 +301,7 @@ nav ul li a:hover {
   margin: 20% 0 20% 0;
 }
 #portfolio h2{
-  color: #d6aa77;
+  color: #5a5a5a;
 }
 .img-responsive{
   max-width: 100%;
@@ -399,28 +399,12 @@ nav ul li a:hover {
   cursor: default;
 }
 #hexTitle{
-  position: absolute;
   text-align: center;
-  bottom: 46%;
   font-size: 100%;
   width: 100%;
   height: auto;
   margin: 0 auto;
   padding: 0 20px;
-}
-.caption{
-  font-family: 'Avenir', sans-serif;
-  position: absolute;
-  display: block;
-  color: #fff;
-  text-align: center;
-  bottom: 23%;
-  padding: 0 10% 10% 10%;
-  letter-spacing: 4px;
-  width: 100%;
-  height: auto;
-  font-weight: normal;
-  font-size: 50%;
 }
 /****** ABOUT ME ******/
 
