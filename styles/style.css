@@ -301,13 +301,14 @@ nav ul li a:hover {
   margin: 20% 0 20% 0;
 }
 #portfolio h2{
-  color: #5a5a5a;
+  color: #d6aa77;
 }
 .img-responsive{
   max-width: 100%;
   height: auto;
   display: inline-block;
   position: relative;
+  margin-bottom: 20px;
 }
 .hovereffect {
   width: 100%;
