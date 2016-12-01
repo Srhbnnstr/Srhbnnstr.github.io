@@ -309,6 +309,8 @@ nav ul li a:hover {
   display: inline-block;
   position: relative;
   margin-bottom: 20px;
+  margin-right: 0;
+
 }
 .hovereffect {
   width: 100%;
@@ -327,8 +329,6 @@ nav ul li a:hover {
   height: 80%;
   left: 10%;
   top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0,1);
@@ -360,7 +360,7 @@ nav ul li a:hover {
 .hovereffect h2 {
   text-transform: uppercase;
   text-align: center;
-  position: relative;
+  position: absolute;
   font-size: 17px;
   background-color: transparent;
   color: #FFF;
@@ -401,6 +401,7 @@ nav ul li a:hover {
 }
 #hexTitle{
   text-align: center;
+  position: absolute;
   font-size: 100%;
   width: 100%;
   height: auto;
