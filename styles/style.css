@@ -92,14 +92,14 @@ p{
 }
 hr{
   width: 50%;
-  border-color: #c18c4f;
+  border-color: #fff;
   margin-bottom: 20px;
 }
 img{
   padding: 0;
 }
 a{
-  color: #f7cdcd;
+  color: #f2abab;
   font-weight: bold;
 }
 a:hover{
@@ -107,24 +107,18 @@ a:hover{
 }
 .btn-default {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   padding: 20px;
-  background: none;
-  margin-top: 2%;
   color: #fff;
-  background: #d6aa77;
-  border: 2px solid #d6aa77;
+  background: #5a5a5a;
+  border-radius: 0;
+  border: none;
 }
 .btn-default:hover{
-  color: #fff;
+  color: #5a5a5a;
   background: #d6aa77;
-  border: 2px solid #d6aa77;
-}
-.btn-default:active{
-  color: #fff;
-  background: #d6aa77;
-  border: 2px solid #d6aa77;
+  border: none;
 }
 
 
@@ -139,7 +133,7 @@ a:focus, a:hover{
   padding-bottom: 10px;
 }
 li {
-    padding: 40px 60px 0 60px;
+    padding: 0px 50px 30px 50px;
     margin: 0;
   }
 .navbar-fixed-top{
@@ -148,6 +142,7 @@ li {
   height: 10%;
   color: #d6aa77;
   background: #fff;
+  display: inline-block;
 }
 nav {
     text-align: center;
@@ -184,7 +179,7 @@ nav ul li a:hover {
 
 @media screen and (max-width:98em) {
   li{
-    padding: 30px 100px 0 100px;
+    padding: 3% 9% 0 10%;
   }
   .navbar-fixed-top{
     padding-bottom: 20px;
@@ -232,6 +227,7 @@ nav ul li a:hover {
   bottom: 10%;
   padding: 0 10% 13% 5%;
   float: left;
+  font-size: 570%;
   font-family: 'Permanent Marker', serif;
   color: #fff;
   max-width: 100%;
@@ -241,54 +237,53 @@ nav ul li a:hover {
 }
 #subtext{
   position: absolute;
-  bottom: 14%;
+  bottom: 12%;
   padding: 5% 10% 10% 5%;
   font-family: 'Avenir', serif;
   letter-spacing: 4px;
   font-weight: 100;
-  font-size: 25%;
+  font-size: 150%;
   letter-spacing: 5px;
   color: #d6aa77;
   max-width: 100%;
   height: auto;
   line-height: 150%;
 }
-@media only screen and (max-width: 45em){
-#subtext{
-  letter-spacing: 3px;
-}
-}
-@media only screen and (max-width: 32em){
+@media only screen and (max-width: 50em){
   #hero{
     position: absolute;
     letter-spacing: 1px;
-    bottom: 23%;
+    bottom: 10%;
     padding: 0 10% 13% 5%;
-    font-size: 210%;
+    font-size: 400%;
   }
   #subtext{
     position: absolute;
-    bottom: 22%;
+    bottom: 9%;
     padding: 5% 10% 10% 5%;
-    font-size: 48%;
+    font-size: 120%;
     letter-spacing: 2px;
     font-weight: 300;
+}
+}
+@media only screen and (max-width: 36em){
+  #hero{
+    font-size: 250%;
+  }
+  #subtext{
+    font-size: 90%;
 }
 }
 .jumbotron {
     padding: 0;
     background-color: transparent;
     border-bottom: 0;
-    margin: 0 auto;
+    margin: 40px 0;
     position: relative;
 }
 @media only screen and (max-width: 40em){
 .banner{
-  height: 230px;
-  width: 100%;
-}
-.jumbotron{
-  border: 10px solid #fff;
+  margin-top: 60px;
 }
 }
 
@@ -303,12 +298,7 @@ nav ul li a:hover {
   text-align: center;
   font-size: 180%;
   padding: 130px 0;
-  margin: 70% 0 60% 0;
-}
-@media only screen and (max-width: 45em){
-#portfolio{
-  margin: 70% 0 160% 0;
-}
+  margin: 20% 0 20% 0;
 }
 #portfolio h2{
   color: #d6aa77;
@@ -435,89 +425,31 @@ nav ul li a:hover {
 /****** ABOUT ME ******/
 
 #about {
-  padding: 0 40px 50px 40px;
+  padding: 100px 0;
+  margin: 20% 0 25% 0;
   font-weight: 100;
   display: inline-block;
-  background-color: #fff;
+  background-color: #f4f2f2;
   height: 100%;
   width: auto;
-  padding: 100px 0;
-  margin: 200px 0 300px 0;
   letter-spacing: 1px;
   line-height: 40px;
 }
-#aboutMe{
-  margin: 20px 0 0 30px;
-  font-family: 'Avenir', sans-serif;
-  font-size: 18px;
-  color: #e2e2e2;
-  position: absolute;
-  bottom: 10%;
-  padding: 4% 5% 12% 0;
+#aboutMe {
+  font-family: "Avenir", sans-serif;
+  font-size: 20px;
+  margin-top: 3%;
+  color: #5a5a5a;
   max-width: 100%;
   height: auto;
-  line-height: 150%;
+  line-height: 180%;
   letter-spacing: 2;
+  display: inline-block;
 }
-@media screen and (max-width:70em) {
+@media screen and (max-width:60em) {
 #aboutMe{
   font-size: 16px;
-  max-width: 100%;
-  height: auto;
-  padding: 5% 5% 12% 0;
 }
-}
-@media screen and (max-width:58em) {
-#aboutMe{
-  font-size: 16px;
-  max-width: 100%;
-  height: auto;
-  padding: 0;
-}
-}
-@media screen and (max-width:50em) {
-#aboutMe{
-  font-size: 14px;
-  max-width: 100%;
-  height: auto;
-  padding: 1% 0 1% 0;
-}
-}
-@media screen and (max-width:43em) {
-#aboutMe{
-  position: relative;
-  font-family: 'Avenir', sans-serif;
-  font-size: 14px;
-  color: #4a4a4a;
-  width: 100%;
-  height: auto;
-  float: left;
-  padding: 5% 20% 0 0;
-  margin: 0;
-}
-}
-.portrait{
-  max-width: 100%;
-  height: auto;
-  -webkit-filter: grayscale(80%);
-  filter: grayscale(80%);
-  background-color:rgba(0,0,0,0.6);
-  opacity: .9;
-  position: relative;
-}
-@media screen and (max-width:38em) {
-.portrait{
-  max-width: 100%;
-  height: auto;
-  -webkit-filter: grayscale(70%);
-  filter: grayscale(70%);
-  background-color:rgba(0,0,0,0.6);
-  opacity: .7;
-  position: relative;
-}
-}
-.img-container{
-    background-color: #000000;
 }
 .social-icon {
     width: 80px;
@@ -529,28 +461,29 @@ nav ul li a:hover {
     padding-top: 7px;
 }
 .social-icon:hover {
-    color: #DBBE9C;
+    color: #5a5a5a;
 }
 
 /****** CONTACT ******/
 
 #contact {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   height: auto;
   padding: 20px;
   letter-spacing: 2px;
-  background-color: #fff;
+  background-color: #d6aa77;
 }
-#contact h4{
-  font-family: 'Avenir', serif;
+#contact p{
+  font-family: 'Avenir', sans-serif;
   font-weight: lighter;
-  font-size: 16px;
-  color: #4a4a4a;
+  font-size: 20px;
+  color: #fff;
+  padding-bottom: 1em;
 }
 #chat{
-  color: #d6aa77;
-  margin-bottom: 25px;
+  color: #fff;
+  margin: 30px 0 25px 0;
 }
 .email {
   color: #DBBE9C;
@@ -563,6 +496,22 @@ nav ul li a:hover {
 }
 label{
   font-size: 16px;
+}
+#emailMe {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 20px;
+  background: none;
+  margin-top: 2%;
+  color: #d6aa77;
+  background: #fff;
+  border: none;
+}
+#emailMe:hover{
+  color: #5a5a5a;
+  background: #fff;
+  border: none;
 }
 @media screen and (max-width: 38em) {
   .aboutMe{
@@ -577,9 +526,12 @@ label{
   }
   #contact h4{
     font-weight: 200;
+    line-height: 150%;
   }
   #contact p {
     padding: 0 20px;
+    font-size: 12;
+    font-weight: 200;
   }
   .aboutMe {
     padding: 10px 0 40px 0;
@@ -620,10 +572,14 @@ label{
   .btn-default {
     font-size: 14px;
   }
+  #emailMe {
+    font-size: 14px;
+  }
 }
 .social-icon {
   width: 10%;
   height: 10px;
+  font-size: 150%;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -639,7 +595,6 @@ label{
     position: absolute;
   }
   #contact h4{
-    font-size: 90%;
     padding: 0 60px;
   }
   }
@@ -651,12 +606,10 @@ label{
     height: 20px;
     width: 100%;
     color: #5a5a5a;
-    font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
-    font-size: 110%;
     font-weight: 200;
-    padding: 10px 0 0 0;
-    margin: 20px 0 5px 0;
+    padding: 0;
+    margin: 0 0 5px 0;
     text-align: center;
   }
   footer p{
@@ -664,27 +617,15 @@ label{
   }
   footer .social {
     font-size: 25px;
-    padding: 10px 0 10px 0;
-    background: #5a5a5a;
-  }
-
-/*******  BACK TO TOP *******/
-
-  .back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 15px;
-    right: 20px;
-    display:none;
-    z-index: 1000;
-    background-color: #5a5a5a;
-    border: solid 2px #fff;
-  }
-  .back-to-top:hover {
-    background-color: #5a5a5a;
-    border: solid 2px #fff;
+    padding: 7px 0 50px 0;
+    background: #d6aa77;
   }
   @media screen and (max-width: 40em){
-    .back-to-top {
-      bottom: 3px;
+    footer .social {
+      font-size: 35px;
+      padding: 10px 0 30px 0;
+    }
+    #contact p{
+      font-size: 13px;
+    }
     }
