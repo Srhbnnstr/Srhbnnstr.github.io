@@ -14,13 +14,13 @@ h1{
   font-family: 'Helvetica Neue', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 300;
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
 }
 h3{
@@ -38,6 +38,13 @@ margin-bottom: 10px;
 }
 h5{
   font-family: 'Helvetica Neue', sans-serif;
+  color: #d6aa77;
+  letter-spacing: 3px;
+  margin-left: 10%;
+}
+h6{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
   color: #d6aa77;
   letter-spacing: 3px;
   margin-left: 10%;
@@ -81,16 +88,15 @@ a:focus, a:hover{
     width: 100%;
     height: auto;
     padding-bottom: 10px;
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
 }
-li {
-    padding: 40px 65px 0 65px;
-    margin: 0;
-  }
 .navbar-fixed-top{
   border: 0;
   height: 10%;
   color: #d6aa77;
   background: #fff;
+  float: none;
 }
 nav {
     text-align: center;
@@ -127,16 +133,7 @@ nav ul li a:hover {
 
 /****** NAVBAR RESPONSIVE ******/
 
-@media screen and (max-width:98em) {
-  li {
-    padding: 40px 90px 20px 90px;
-  }
-}
-@media screen and (max-width:80em) {
-  li {
-    padding: 40px 60px 0 60px;
-  }
-}
+
 @media screen and (max-width:45em) {
 li{
   padding: 30px 20px 0 20px;
@@ -177,28 +174,17 @@ li{
 /****** JUMBOTRON ******/
 
 #hero{
-  position: absolute;
-  bottom: 20%;
-  padding: 0 10% 13% 5%;
-  float: left;
-  font-family: 'Avenir', serif;
-  font-size: 300%;
-  letter-spacing: 3px;
-  color: #fff;
-  max-width: 100%;
-  height: auto;
-  line-height: 150%;
-  margin-bottom: 30px;
+  text-align: center;
 }
 #subtext{
   position: absolute;
   text-align: left;
-  bottom: 20%;
-  padding: 5%;
+  bottom: 15%;
+  padding: 5% 20% 5% 2%;
   font-family: 'Avenir', serif;
-  letter-spacing: 4px;
-  font-size: 40%;
-  color: #DBBE9C;
+  letter-spacing: 2px;
+  font-size: 180%;
+  color: #fff;
   max-width: 100%;
   height: auto;
   line-height: 150%;
@@ -215,8 +201,24 @@ li{
   height: 230px;
   width: 100%;
 }
-.jumbotron{
-  border: 10px solid #fff;
+}
+@media only screen and (max-width: 60em){
+#subtext{
+  bottom: 5%;
+}
+}
+@media only screen and (max-width: 50em){
+#subtext{
+  font-size: 140%;
+  bottom: 5%;
+}
+}
+@media only screen and (max-width: 40em){
+#subtext{
+  font-size: 80%;
+  bottom: 3%;
+  text-align: center;
+  padding: 5% 3% 10% 3%;
 }
 }
 
@@ -274,4 +276,10 @@ p.context{
       text-align: center;
       margin-right:-4px;
   }
+}
+
+/******** STORY **********/
+
+.story{
+  padding: 0 13%;
 }
