@@ -65,8 +65,11 @@ hr{
   margin-bottom: 20px;
 }
 a{
-  color: #f2abab;
+  color: #f77f71;
   font-weight: bold;
+}
+a:hover{
+  color: #5a5a5a;
 }
 .btn-default {
     font-family: 'Helvetica Neue', sans-serif;
@@ -354,4 +357,12 @@ nav ul li a:hover {
 #paper{
   background-color: #e2e2e2;
   padding: 5%;
+}
+#prototype{
+  margin: 5% 20%;
+  padding: 5%;
+  line-height: 200%;
+  background-color: #f4f2f2;
+  text-align: center;
+  color: #5a5a5a;
 }
