@@ -15,13 +15,15 @@ h1{
   color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 300;
+  text-align: center;
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
+  font-size: 24px;
 }
 h3{
   font-family: 'Helvetica Neue', sans-serif;
@@ -38,46 +40,50 @@ margin-bottom: 10px;
 }
 h5{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #d6aa77;
+  color: #5a5a5a;
   letter-spacing: 3px;
-  margin-left: 10%;
 }
 h6{
   font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 300;
-  color: #d6aa77;
+  font-weight: bold;
+  color: #5a5a5a;
   letter-spacing: 3px;
   margin-left: 10%;
+  text-align: center;
 }
 p{
-  font-size: 16px;
-  color: #4a4a4a;
+  font-size: 15px;
+  color: #5a5a5a;
   font-family: 'Avenir', sans-serif;
-  text-align: center;
+  text-align: left;
+  font-weight: 100;
+  line-height: 170%;
 }
 hr{
   width: 50%;
   border-color: #7f2852;
   margin-bottom: 20px;
 }
-img{
-  padding: 0;
+a{
+  color: #f2abab;
+  font-weight: bold;
 }
 .btn-default {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding: 20px;
-  background: none;
-  color: #7f2852;
-  border: 2px solid #7f2852;
-}
-.btn-default:hover {
-  border: 2px solid #7f2852;
-  color: #fff;
-  background: #7f2852;
-}
-
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 20px;
+    color: #fff;
+    background: #5a5a5a;
+    border-radius: 0;
+    border: none;
+    margin: 10% 0 15% 0;
+  }
+  .btn-default:hover{
+    color: #5a5a5a;
+    background: #d6aa77;
+    border: none;
+  }
 
 /****** NAVBAR ******/
 
@@ -85,72 +91,63 @@ a:focus, a:hover{
   text-decoration: none;
 }
 .banner {
-    width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    filter: brightness(0.5);
-    -webkit-filter: brightness(0.5);
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  margin-top: 3%;
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
+}
+li{
+  padding: 20px 20px 0 20px;
+  background-color: #fff;
+}
+.navbar-center{
+width: 100%;
+left: 0;
+margin-left: 40%;
 }
 .navbar-fixed-top{
   border: 0;
   height: 10%;
-  color: #d6aa77;
   background: #fff;
-  float: none;
-}
-nav {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    background: none;
+  display: inline-block;
 }
 nav ul li {
-    display: inline-block;
-    font-family: 'Helvetica Neue', sans-serif;
+  display: inline-block;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 nav ul li a {
-    color: #d6aa77;
-    font-size: 16px;
-    font-weight: 200;
-    letter-spacing: 2px;
-    padding-bottom: 30%;
-    display: inline-block;
-    text-decoration: none;
-    transition-property: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -webkit-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
+  color: #d6aa77;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding-bottom: 30%;
+  background-color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  transition-property: all .2s linear 0s;
+  -moz-transition: all .2s linear 0s;
+  -webkit-transition: all .2s linear 0s;
+  -o-transition: all .2s linear 0s;
 }
 ul, menu, dir {
   padding-left: 0px;
 }
 nav ul li a:hover {
-    color: #4a4a4a;
-    text-decoration: none;
+  color: #4a4a4a;
+  text-decoration: none;
 }
 
 /****** NAVBAR RESPONSIVE ******/
 
-
-@media screen and (max-width:45em) {
-li{
-  padding: 30px 20px 0 20px;
-}
-}
 @media screen and (max-width:42em) {
   nav ul li {
       display: inline-block;
   }
   nav ul li a {
     font-size: 15px;
-  }
-  li{
-    padding: 30px 10px 0 10px;
-  }
-  .navbar-fixed-top{
-    padding-bottom: 20px;
   }
 }
 @media screen and (max-width:32em) {
@@ -175,19 +172,20 @@ li{
 
 #hero{
   text-align: center;
+  font-size: 24px;
 }
 #subtext{
   position: absolute;
-  text-align: left;
-  bottom: 15%;
-  padding: 5% 20% 5% 2%;
+  bottom: 20%;
+  padding: 5%;
   font-family: 'Avenir', serif;
   letter-spacing: 2px;
+  font-weight: 100;
   font-size: 180%;
   color: #fff;
   max-width: 100%;
   height: auto;
-  line-height: 150%;
+  line-height: 200%;
 }
 .jumbotron {
     padding: 0;
@@ -204,13 +202,12 @@ li{
 }
 @media only screen and (max-width: 60em){
 #subtext{
-  bottom: 5%;
+  bottom: 10%;
 }
 }
 @media only screen and (max-width: 50em){
 #subtext{
   font-size: 140%;
-  bottom: 5%;
 }
 }
 @media only screen and (max-width: 40em){
@@ -220,66 +217,141 @@ li{
   text-align: center;
   padding: 5% 3% 10% 3%;
 }
+.banner{
+  height: 230px;
+  width: 100%;
+  margin-top: 10%;
+}
 }
 
 /****** CASE STUDY - INTRO ******/
 
 #intro{
-  padding: 0 40px 0 40px;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 100;
+    margin: 0 20%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    line-height: 200%;
 }
 
-p.context{
-    margin: 0 10%;
-    font-size: 16px;
-    color: #4a4a4a;
-    font-family: 'Avenir', sans-serif;
-    text-align: center;
+#intro p{
+  text-align: center;
 }
 .info{
-  max-width: 100%;
   height: auto;
   float: none;
-  display: inline-block;
+  display: block;
   text-align: center;
   margin: 0 auto;
-  padding: 0;
-  float: none;
+  padding: 2% 0;
 }
 .info p{
   display: inline-block;
   text-align: center;
 }
-.row-centered {
-    text-align:center;
+
+/******** CHALLENGE **********/
+
+.challenge{
+  padding: 20% 10% 0 0;
 }
-.col-centered {
-    display:inline-block;
-    float:none;
-    text-align:left;
-    margin-right:-4px;
+#img1{
+  padding-top: 30%;
+  padding-bottom: 20%;
+  margin: 0 auto;
 }
-.col-fixed {
-    width:320px;
+@media only screen and (max-width: 60em){
+#img1{
+  padding-top: 50%;
+  padding-bottom: 0;
+  margin: 0 auto;
 }
-.col-min {
-    min-width:320px;
+  .challenge{
+    padding: 20% 0 20% 0;
 }
-.col-max {
-    max-width:320px;
 }
-@media only screen and (max-width: 42em){
-  .col-centered {
-      display: block;
-      float:none;
-      text-align: center;
-      margin-right:-4px;
+@media only screen and (max-width: 48em){
+  #img1{
+    padding-top: 30%;
+    margin: 0 auto;
+  }
+.challenge{
+  padding: 20% 5% 0 5%;
+}
+}
+.img-responsive{
+  margin: 0 auto;
+}
+#affinity{
+  padding: 5%;
+}
+.affinity{
+  margin-top: -15%;
+}
+@media only screen and (max-width: 70em){
+#affinity{
+  margin-top: 0;
+}
+}
+.problem{
+  margin: 5% 20%;
+  padding: 5%;
+  line-height: 200%;
+  background-color: #f4f2f2;
+  text-align: center;
+  font-family: "Avenir", sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 38em){
+  .problem{
+    margin: 0 auto;
+    padding: 5%;
+    line-height: 200%;
+    background-color: #f4f2f2;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
   }
 }
-
-/******** STORY **********/
-
-.story{
-  padding: 0 13%;
+#persona{
+  padding: 5% 0;
+}
+#robin{
+  padding: 5% 0;
+}
+#paper{
+  padding-bottom: 10%;
+}
+#style{
+  padding: 7% 0;
+}
+.quote{
+  margin: 5% 20%;
+  padding: 5%;
+  line-height: 200%;
+  background-color: #f4f2f2;
+  text-align: center;
+}
+@media only screen and (max-width: 38em){
+  .quote{
+    margin: 0 auto;
+    padding: 5%;
+    line-height: 200%;
+    background-color: #f4f2f2;
+    text-align: center;
+  }
+}
+#diverge{
+  margin-top: 20%;
+}
+#concepts p{
+  padding: 0 5%;
+}
+.mid-fi p{
+  text-align: center;
+}
+#paper{
+  background-color: #e2e2e2;
+  padding: 5%;
 }
