@@ -66,13 +66,13 @@ h1{
   font-family: 'Helvetica Neue', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 200;
 }
 h2{
   font-family: 'Helvetica Neue', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 200;
 }
 h3{
   font-family: 'Helvetica Neue', sans-serif;
@@ -109,7 +109,7 @@ a:hover{
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
-  padding: 10px;
+  padding: 20px;
   color: #fff;
   background: #5a5a5a;
   border-radius: 0;
@@ -154,7 +154,7 @@ nav {
 }
 nav ul li {
     display: inline-block;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Avenir', sans-serif;
 }
 nav ul li a {
     color: #d6aa77;
@@ -204,7 +204,7 @@ nav ul li a:hover {
       display: inline-block;
   }
   li{
-    padding: 30px 20px 0 20px;
+    padding: 15px 20px 0 20px;
   }
   nav ul li a {
     font-size: 13px;
@@ -462,7 +462,7 @@ label{
 }
 #emailMe {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   padding: 20px;
   background: none;
@@ -533,9 +533,6 @@ label{
     width: auto;
   }
   .btn-default {
-    font-size: 14px;
-  }
-  #emailMe {
     font-size: 14px;
   }
 }
