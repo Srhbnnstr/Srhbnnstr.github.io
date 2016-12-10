@@ -101,6 +101,7 @@ img{
 a{
   color: #f77f71;
   font-weight: bold;
+  text-decoration: underline;
 }
 a:hover{
   color: #5a5a5a;
