@@ -338,7 +338,7 @@ nav ul li a:hover {
 }
 @media only screen and (max-width: 38em){
   .quote{
-    margin: 0 auto;
+    margin: 10% auto;
     padding: 5%;
     line-height: 200%;
     background-color: #f4f2f2;
@@ -359,7 +359,7 @@ nav ul li a:hover {
   padding: 5%;
 }
 #prototype{
-  margin: 5% 20%;
+  margin: 15% 20%;
   padding: 5%;
   line-height: 200%;
   background-color: #f4f2f2;
