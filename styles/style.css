@@ -115,6 +115,7 @@ a:hover{
   background: #5a5a5a;
   border-radius: 0;
   border: none;
+  text-decoration: none;
 }
 .btn-default:hover{
   color: #5a5a5a;
@@ -472,6 +473,7 @@ label{
   color: #d6aa77;
   background: #fff;
   border: none;
+  text-decoration: none;
 }
 #emailMe:hover{
   color: #5a5a5a;
