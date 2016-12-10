@@ -377,6 +377,12 @@ nav ul li a:hover {
   transform: translate3d(0,-100%,0);
 }
 
+@media screen and (max-width:40em) {
+.hovereffect h2 {
+  margin-top: 8%;
+  }
+}
+
 .hovereffect a, hovereffect p {
   color: #FFF;
   font-weight: 100;
