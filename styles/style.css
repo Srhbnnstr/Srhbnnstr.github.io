@@ -177,6 +177,10 @@ nav ul li a:hover {
   color: #4a4a4a;
   text-decoration: none;
 }
+nav ul li a:active {
+  color: #4a4a4a;
+  text-decoration: none;
+}
 /****** NAVBAR RESPONSIVE ******/
 
 @media screen and (max-width:98em) {
