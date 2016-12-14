@@ -273,7 +273,10 @@ nav ul li a:hover {
 #intro p{
   text-align: center;
 }
-
+.info{
+  display: block;
+  text-align: center;
+}
 .info p{
   display: inline-block;
   text-align: center;
