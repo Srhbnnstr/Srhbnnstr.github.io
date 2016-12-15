@@ -1,0 +1,417 @@
+
+
+
+/****** GENERAL ******/
+
+body {
+    background-color: white;
+    top: 0;
+    overflow: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+h1{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #d6aa77;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-align: center;
+}
+h2{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #d6aa77;
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-align: left;
+  font-size: 24px;
+}
+h3{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #d6aa77;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+h4{
+font-family: 'Helvetica Neue', sans-serif;
+font-weight: lighter;
+color: #fff;
+letter-spacing: 1px;
+margin-bottom: 10px;
+}
+h5{
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #5a5a5a;
+  letter-spacing: 3px;
+}
+h6{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #5a5a5a;
+  letter-spacing: 3px;
+  margin-left: 10%;
+  text-align: center;
+}
+p{
+  font-size: 15px;
+  color: #5a5a5a;
+  font-family: 'Avenir', sans-serif;
+  text-align: left;
+  font-weight: 100;
+  line-height: 170%;
+}
+hr{
+  width: 50%;
+  border-color: #7f2852;
+  margin-bottom: 20px;
+}
+a{
+  color: #f77f71;
+  font-weight: bold;
+}
+a:hover{
+  color: #5a5a5a;
+}
+figcaption{
+  text-align: center;
+  font-weight: 200;
+}
+.btn-default {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 20px;
+    color: #fff;
+    background: #5a5a5a;
+    border-radius: 0;
+    border: none;
+    margin: 10% 0 15% 0;
+  }
+  .btn-default:hover{
+    color: #5a5a5a;
+    background: #d6aa77;
+    border: none;
+  }
+
+/****** NAVBAR ******/
+
+a:focus, a:hover{
+  text-decoration: none;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  margin-top: 3%;
+}
+li{
+  padding: 20px 20px 0 20px;
+  background-color: #fff;
+}
+.navbar-center{
+width: 100%;
+left: 0;
+margin-left: 40%;
+}
+.navbar-fixed-top{
+  border: 0;
+  height: 10%;
+  background: #fff;
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  background-color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+nav ul li a {
+  color: #d6aa77;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding-bottom: 30%;
+  background-color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  transition-property: all .2s linear 0s;
+  -moz-transition: all .2s linear 0s;
+  -webkit-transition: all .2s linear 0s;
+  -o-transition: all .2s linear 0s;
+}
+ul, menu, dir {
+  padding-left: 0px;
+}
+nav ul li a:hover {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+/****** NAVBAR RESPONSIVE ******/
+
+@media screen and (max-width:42em) {
+  nav ul li {
+      display: inline-block;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:32em) {
+  nav ul li {
+      display: inline-block;
+  }
+  nav ul li a {
+    font-size: 14px;
+    font-weight: 200;
+  }
+  h1{
+    font-size: 18px;
+    font-weight: 200;
+  }
+  h2{
+    font-size: 16px;
+    font-weight: 200;
+  }
+}
+
+/****** JUMBOTRON ******/
+
+#title{
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+  font-size: 24px;
+}
+#subtext{
+  position: absolute;
+  bottom: 20%;
+  padding: 5%;
+  font-family: 'Avenir', serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 180%;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  line-height: 200%;
+}
+#title{
+  position: absolute;
+  bottom: 50%;
+  font-family: 'Avenir', serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 180%;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  line-height: 200%;
+  text-align: center;
+  margin: 0 auto;
+}
+#hero{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d6aa77;
+  padding: 5%;
+  margin-top: 25%;
+}
+@media only screen and (max-width: 50em){
+#hero{
+  margin-top: 20%;
+}
+}
+.jumbotron {
+    padding: 0;
+    background-color: transparent;
+    border-bottom: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+@media only screen and (max-width: 40em){
+.banner{
+  height: 230px;
+  width: 100%;
+}
+}
+@media only screen and (max-width: 60em){
+#subtext{
+  bottom: 10%;
+}
+}
+@media only screen and (max-width: 50em){
+#subtext{
+  font-size: 140%;
+}
+}
+@media only screen and (max-width: 40em){
+#subtext{
+  font-size: 80%;
+  bottom: 3%;
+  text-align: center;
+  padding: 5% 3% 10% 3%;
+}
+.banner{
+  height: 230px;
+  width: 100%;
+  margin-top: 10%;
+}
+}
+
+/****** CASE STUDY - INTRO ******/
+
+#intro{
+    margin: 0 2%;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    line-height: 200%;
+}
+
+#intro p{
+  text-align: center;
+}
+.info{
+  display: block;
+  text-align: center;
+}
+.info p{
+  display: inline-block;
+  text-align: center;
+}
+
+/******** CHALLENGE **********/
+
+.container-fluid{
+  text-align: left;
+}
+
+#img1{
+  padding-top: 30%;
+  padding-bottom: 20%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 60em){
+#img1{
+  padding-top: 50%;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+}
+@media only screen and (max-width: 48em){
+  #img1{
+    padding-top: 30%;
+    margin: 0 auto;
+  }
+}
+.img-responsive{
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+#affinity{
+  padding: 5%;
+}
+@media only screen and (max-width: 70em){
+#affinity{
+  margin-top: 0;
+}
+}
+.problem{
+  margin: 5% 20%;
+  padding: 5%;
+  line-height: 200%;
+  background-color: #f4f2f2;
+  text-align: center;
+  font-family: "Avenir", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 38em){
+  .problem{
+    margin: 10% 4% 0 4%;
+    padding: 0%;
+    line-height: 150%
+    font-size: 15;
+  }
+}
+#persona{
+  padding: 5% 0;
+}
+#robin{
+  padding: 5% 0;
+}
+#paper{
+  padding-bottom: 10%;
+}
+#style{
+  padding: 7% 0;
+}
+.quote{
+  margin: 5% 20%;
+  padding: 5%;
+  line-height: 200%;
+  background-color: #f4f2f2;
+  text-align: center;
+}
+.userquote{
+  margin: 10% 20%;
+  padding: 5%;
+  line-height: 200%;
+  text-align: center;
+  background-color: #f4f2f2;
+  font-size: 18px;
+  color: #2a2a2a;
+}
+@media only screen and (max-width: 38em){
+  .quote{
+    margin: 5%;
+    padding: 5%;
+    line-height: 200%;
+    text-align: center;
+  }
+  .userquote{
+    margin: 10% 0;
+    padding: 5%;
+    line-height: 200%;
+    text-align: center;
+    background-color: #f4f2f2;
+    font-size: 15px;
+    color: #2a2a2a;
+  }
+}
+#diverge{
+  margin-top: 20%;
+}
+#concepts p{
+  padding: 0 5%;
+}
+.mid-fi p{
+  text-align: center;
+}
+#paper{
+  background-color: #e2e2e2;
+  padding: 5%;
+}
+#prototype{
+  margin: 15% 20%;
+  padding: 5%;
+  line-height: 200%;
+  background-color: #f4f2f2;
+  text-align: center;
+  color: #5a5a5a;
+}
+.post_it{
+  width: 200px;
+  height: 200px;
+  padding: 5%;
+}
+@media only screen and (max-width: 38em){
+  .post_it{
+    width: 150px;
+    height: 150px;
+    line-height: 130%;
+    font-size: 14px;
+}
+}
