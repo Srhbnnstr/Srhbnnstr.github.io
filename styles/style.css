@@ -310,6 +310,11 @@ nav ul li a:active {
 #portfolio h2{
   color: #d6aa77;
 }
+@media screen and (max-width:40em) {
+#portfolio {
+  padding-top: 15%;
+  }
+}
 .img-responsive{
   max-width: 100%;
   height: auto;
