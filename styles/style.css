@@ -321,6 +321,7 @@ nav ul li a:hover {
   display: inline-block;
   position: relative;
   margin: 0 auto;
+  padding: 5% 0;
 }
 .hovereffect {
   width: 100%;
@@ -339,8 +340,6 @@ nav ul li a:hover {
   height: 80%;
   left: 10%;
   top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0,1);
@@ -416,11 +415,20 @@ nav ul li a:hover {
   font-size: 16px;
   font-family: 'Avenir', sans-serif;
   padding: 10% 0 0 0;
+  margin-top: 5%;
   margin: 0 auto;
   text-align: center;
 }
 a:focus, a:active{
   color: #d6aa77 !important ;
+}
+#uber{
+  margin-top: 21%;
+}
+@media only screen and (max-width: 48em){
+  #uber{
+    margin-top: 2%;
+  }
 }
 /****** ABOUT ME ******/
 
