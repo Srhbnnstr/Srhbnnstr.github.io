@@ -99,7 +99,7 @@ img{
   padding: 0;
 }
 a{
-  color: #f77f71;
+  color: #d6aa77;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -177,10 +177,7 @@ nav ul li a:hover {
   color: #4a4a4a;
   text-decoration: none;
 }
-a:focus a:active{
-  color: #d6aa77 !important;
-  text-decoration: none;
-}
+
 /****** NAVBAR RESPONSIVE ******/
 
 @media screen and (max-width:98em) {
@@ -224,9 +221,6 @@ a:focus a:active{
     font-size: 16px;
     font-weight: 200;
   }
-}
-#scroll a :active{
-  color: none;
 }
 
 /****** JUMBOTRON ******/
@@ -421,6 +415,9 @@ a:focus a:active{
   padding: 10% 0 0 0;
   margin: 0 auto;
   text-align: center;
+}
+a:focus, a:active{
+  color: #d6aa77 !important ;
 }
 /****** ABOUT ME ******/
 
