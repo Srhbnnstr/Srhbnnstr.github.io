@@ -321,7 +321,7 @@ nav ul li a:hover {
   display: inline-block;
   position: relative;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 2% 0;
 }
 .hovereffect {
   width: 100%;
@@ -422,14 +422,10 @@ nav ul li a:hover {
 a:focus, a:active{
   color: #d6aa77 !important ;
 }
-#uber{
-  margin-top: 21%;
-}
-@media only screen and (max-width: 48em){
   #uber{
     margin-top: 2%;
   }
-}
+
 /****** ABOUT ME ******/
 
 #about {
