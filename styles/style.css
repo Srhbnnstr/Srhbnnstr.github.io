@@ -177,8 +177,8 @@ nav ul li a:hover {
   color: #4a4a4a;
   text-decoration: none;
 }
-nav ul li a:active {
-  color: #4a4a4a;
+a:focus a:active{
+  color: #d6aa77 !important;
   text-decoration: none;
 }
 /****** NAVBAR RESPONSIVE ******/
@@ -224,6 +224,9 @@ nav ul li a:active {
     font-size: 16px;
     font-weight: 200;
   }
+}
+#scroll a :active{
+  color: none;
 }
 
 /****** JUMBOTRON ******/
@@ -411,6 +414,14 @@ nav ul li a:active {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+#pdfPortfolio{
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: 'Avenir', sans-serif;
+  padding: 10% 0 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
 /****** ABOUT ME ******/
 
 #about {
@@ -425,9 +436,9 @@ nav ul li a:active {
   line-height: 40px;
 }
 #aboutMe {
-  font-family: "Avenir", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   padding-bottom: 40px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 1%;
   color: #5a5a5a;
   max-width: 100%;
@@ -439,6 +450,7 @@ nav ul li a:active {
 @media screen and (max-width:50em) {
 #aboutMe{
   font-size: 14px;
+  font-weight: 200;
 }
 }
 .social-icon {
@@ -466,9 +478,9 @@ nav ul li a:active {
   background-color: #d6aa77;
 }
 #contact p{
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   padding-bottom: 1em;
 }
