@@ -557,7 +557,7 @@ label{
   #contact {
     height: 100%;
     width: auto;
-    margin-top: 15%;
+    margin: 15% 5% 5% 5%;
   }
   .btn-default {
     font-size: 14px;
