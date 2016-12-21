@@ -31,13 +31,18 @@
       </ul>
   </nav>
 
-  <section id="intro" class="section" style="padding-top: 10%;">
-    <br><h2 style="text-align:center;">NWTN</h2>
-    <div style="margin: 5%;">
-      <div class="container-fluid">
-          <p>NWTN aims to reduce the occurrence of multiple head injuries in athletes by way of sensors paired with their coaches phones. My team and I were asked to develop a mid-fidelity prototype of the app interface. We conducted multiple user interviews with coaches and athletic trainers and built a set of 55 screens in our final prototype based around our findings from extensive research and testing. We ensured our design solutions were desired by users by doing many rounds of usability testing.
-</p>
-      </div>
+<h2 id=topText>NWTN</h2>
+  <div class="jumbotron">
+    <img class="img-responsive" id="hero" src="nwtnCover.png">
+  </div>
+
+  <section id="intro" class="section" style="padding-top: 5%;">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+      <br>
+        <div class="container-fluid">
+          <p><strong>NWTN aims to reduce the occurrence of multiple head injuries in athletes</strong> by way of sensors paired with their coaches phones. My team and I were asked to develop a mid-fidelity prototype of the app interface. We conducted multiple user interviews with coaches and athletic trainers and <strong>built a set of 60 screens in our final prototype</strong> based around our findings from extensive research and testing. We ensured our design solutions were desired by users by doing many rounds of usability testing.</p>
+        </div>
+
 
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <h6 class="info">AREA OF FOCUS</h6><p class="info" style="margin-left: 7%;">UX</p>
@@ -50,40 +55,103 @@
         </div>
       </div>
 
-
-<div class="jumbotron">
-  <img class="img-responsive" id="hero" src="ra1.png">
-</div>
-
-<section class="challenge">
+<section id="challenge">
   <div class="container-fluid">
-  <div class="col-xs-12 col-sm-8 col-sm-offset-2" style="padding-top: 10%;" >
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" style="padding-top: 10%;" >
     <h2>THE CHALLENGE</h2>
 
-  <p style="text-align:left;">NWTN is an impact detection sensor intended for use by non-professional athletes. A NWTN sensor is clipped to an athlete’s helmet or headband. When impact is detected, a notification is sent to the coach or trainer who has paired the sensor with their phone via bluetooth. The data surrounding the impact would be recorded for the coach to review along with the option to conduct a S.C.A.T. (sport concussion assessment tool) assessment using the pocket S.C.A.T. tool included in the app. NWTN has been through two rounds of UX research and design with other teams in the past so we started by gaining an understanding of the current state of NWTN.
-</p>
+  <p>NWTN is an impact detection sensor intended for use by non-professional athletes. A NWTN sensor is clipped to an athlete’s helmet or headband. When impact is detected, a notification is sent to the coach or trainer who has paired the sensor with their phone via bluetooth. The data surrounding the impact would be recorded for the coach to review along with the option to conduct a S.C.A.T. (sport concussion assessment tool) assessment using the pocket S.C.A.T. tool included in the app.</p>
 
-	<p style="text-align:left;">(OLD WIREFRAMES)
+<figure style="margin: 5% 0;">
+  <div class="container-fluid">
+  <div class="col-xs-12 col-sm-10 col-md-8 col-lg-8 col-lg-offset-1">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lVqJLtD6qcg" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+  <figcaption class="text-muted">Neil and Aaron, founders of NWTN, talking about the making of the NWTN sensor on the Conan O'Brien Show</figcaption>
+</figure>
 
-  We were provided with a set of deliverables that were produced by the previous UX teams. Some of what was included was a set of personas, interview transcripts and 28 annotated wireframe screens. The majority of the work had been discarded because of a business decision to focus on soccer players instead of on football players. The remainder of the UX and UI work was shared with us in 4 UI screens.
+	<p >NWTN has been through two rounds of UX research and design with other teams in the past so we started by gaining an understanding of the current state of NWTN. We were provided with a set of deliverables that were produced by the previous UX teams. Some of what was included was a set of personas, interview transcripts and 28 annotated wireframe screens. The majority of the work had been discarded because of a business decision to focus on soccer players instead of on football players. The remainder of the UX and UI work was shared with us in 4 UI screens.</p>
 
-  These screens contained components that shaped the mid-fi UX wireframes and user flows we completed in Sprint 2.
+	<p>(OLD WIREFRAMES)</p>
+	<p>These screens contained components that shaped the mid-fi UX wireframes and user flows we completed in Sprint 2.</p>
 
-  After learning what the previous teams had focused on and created, we took note of what pieces NWTN adopted. At that point, the NWTN app consisted of a team roster, individual impact overview and a visual representation of impact by graph or 3D video recreation.</p>
+	<p>After learning what the previous teams had focused on and created, we took note of what pieces NWTN adopted. At that point, the NWTN app consisted of a team roster, individual impact overview and a visual representation of impact by graph or 3D video recreation.</p>
+
+  <p><strong>Screen 1</strong> | Player Profile - Record of individual player history.</p>
+    <img class="img-responsive" src="playerProfile.png" style="padding: 5% 0;">
+
+  <p><i>Key Features:</i></p>
+  <p>Live Mode: In Live Mode the player is actively being tracked by the user</p>
+  <p>Impact Threshold: Each player has a unique impact threshold that determines their ability to handle concussions</p>
+  <p>Flag Player: Players can be flagged to indicate a history of injuries, or players to be watched.</p>
+  <p>Impact History: Users can see the entire history of impacts on a player.</p>
+  <p>Impact Notes: Users can take notes in the player profile.</p>
+  <p>Performance:  NWTN can be also be used to track athletic performance.</p>
 
 
-	<p style="text-align:left;">In our initial kickoff, <strong>Eric requested we focus on the onboarding and dashboard in our scope</strong>, as where most users exist in the site. He was also open to any other areas that we suggested needed work on, so if time in our design sprint allowed, we planned to test and redesign the landing page because of the analytics on initial bounce rate we were given.</p>
+  <p><strong>Screen 2</strong> | Team View - Team roster of current game/practice.</p>
+    <img class="img-responsive" src="roster.png" style="padding: 5% 0;">
+
+  <p><i>Key Features:</i></p>
+  <p>Live Mode: This state indicates that players are actively being tracked by the user.</p>
+  <p>Recent Impact Indication:  The most recent impact on a player is displayed prominently to the left.</p>
+  <p>Player Name and Number: Players are identified in two different ways.</p>
+  <p>Time Between Hits : Tracking when the last hit occurred.</p>
+
+<p>“Live Mode” featured prominently in our UX tests as well as our mid-fi UX designs. The idea of “Live Mode” worked as follows:</p>
+  <p>User is paired with the player</p>
+  <p>During game play or practice, the user turns on “Live Mode” in order to actively capture data</p>
+  <p>The User turns off Live Mode in order to stop capturing data.</p>
+
+  <p>Our UX flows incorporated “Live Mode” and Player Name and Number because we felt that the recent impact indication and time between hits could be displayed differently as it was not used by testers to assess impacts.</p></p>
+
+
+  <p><strong>Screen 3</strong>  |  Hit Replay - The visual replay can help the trainer or coach assess the injury.</p>
+    <img class="img-responsive" src="graph.png" style="padding: 5% 0;">
+
+  <p><i>Key Features:</i></p>
+  <p>Visualize: Seeing the impact on the player through a simulated video.</p>
+  <p>Graph: Showing the X, Y, Z impact to the trainer.</p>
+
+
+  <p>Screen 4</strong> | Hit Replay - Graph visualization of impact.</p>
+    <img class="img-responsive" src="visual.png" style="padding: 5% 0;">
+
+  <p><i>Key Features:</i></p>
+  <p>Visualize : Seeing the impact on the player through a simulated video.</p>
+  <p>Graph : Showing the X, Y, Z impact to the trainer.</p>
+
+  <p>The graph plotting the directions that the force changed in the athlete’s play is important to show the force at which the athlete’s body received the impact.</p>
+
+
 
     <h2>THE APPROACH</h2>
-		  <p style="text-align:left;"><strong>Learning about the rental application screening market</strong></p>
+		<p><strong>Tackling the competitive analysis</strong></p>
 
-		<p style="text-align:left;">We compared six services’ interfaces and features that Eric considered competitors to Rent Application. We found a <strong>major takeaway</strong> to be true: Almost none of the sites we looked at had a modern, user-friendly experience, except for <a href="cozy.co">Cozy</a>. The rental application landscape is crammed with clunky, out of date websites that are confusing and frustrating. We see this as a great opportunity for Rent Application to stand out amongst the current market.</p>
-    <img class="img-responsive" src="ra_analysis.png" style="padding: 7%;">
-		<p style="text-align:left;">After conducting the competitive analysis, we began to assess Rent Application. Why is there such a massive drop-off? Here’s what we initially hypothesized before conducting further research:</p>
+		<p>
 
-		<p style="text-align:left;"><strong>We assumed that the dashboard is confusing, price options are unclear and the onboarding process is too lengthy.</strong></p>
+    We wanted to compare what features other competitors on the market had to offer. We created a matrix that displays how competitors compare in terms of impact detection and injury analysis.
 
-		<p style="text-align:left;">We sought to validate these hypotheses by moving forward and conducting our first round of user interviews and testing using Rent Application’s current website.</p>
+    <img class="img-responsive" src="lll.png" style="padding: 7%;">
+
+    We looked at six major competitors on the market and two indirect competitors. <strong>Our main takeaways were:</strong>
+
+    <p>- All options are similar in price ranging from $99-$185.</p>
+    <p>- Most offer basic impact detection, but not all offer additional assessment that could be a valuable asset to coaches and trainers.</p>
+    <p>- Additional software is often required for use in form of app or assessment device.</p>
+
+    <p>In addition to this analysis, we conducted a heuristic analysis on three competitors and NWTN’s interface based on Nielsen’s 10 usability heurisitics. From reviewing the interfaces of <a href="https://www.theshockbox.com">Shockbox</a>, <a href="https://www.joltsensor.com">Jolt</a>, <a href="https://www.headcasecompany.com">Headcase</a> and <a href="https://www.nwtn.io">NWTN</a>, <strong>we learned:</strong></p>
+
+    <p>Concussion detection sensors and apps are a newly emerging product, there are currently no dominant players as of yet and none of the current competitors have a polished, modern interface.</p>
+    This analysis proved to us that NWTN is in a great position to stand out by offering a modern interface and an in-depth analysis tool along with impact detection. There are a good number of impact detection products available, but none offer an outstanding SCAT test. NWTN had a basic “Pocket SCAT” test in the works and we were eager to see how participants reacted to it in our upcoming concept testing.</p>
+
+		<p>After conducting the competitive analysis, we began to assess Rent Application. Why is there such a massive drop-off? Here’s what we initially hypothesized before conducting further research:</p>
+
+
+
+
+		<p>We sought to validate these hypotheses by moving forward and conducting our first round of user interviews and testing using Rent Application’s current website.</p>
   </div>
 </div>
 </section>
@@ -91,120 +159,28 @@
 
 <section id="affinity">
 	<div class="col-xs-12 col-sm-8 col-sm-offset-2" style="padding-top: 5%;" >
-    <h2 class="approach">UNDERSTANDING RENT APPLICATION</h2>
-    <p>We interviewed current and prospective users of Rent Application who worked as landlords and property managers. We asked users many open-ended, behavioral based questions in our interviews, but had a few major internal research questions in mind going into our interviews:</p>
+    <h2 class="approach">UNDERSTANDING OUR USERS</h2>
+    <p>(INSERT GRAPHIC - COACHES, TRAINERS, ATHLETES)</p>
+    <p>Although we were left with transcripts of previous interviews from a past UX design team, we conducted our own in order to learn as much as possible about the non-professional athletic world. Going into our interviews, we wanted to evaluate the role of athletic trainers and coaches in regards to equipment distribution, collection and management. We also were looking for those outside of the football realm because NWTN was moving away from targeting football to soccer players.</p>
 
+    <p>We spoke with a mix of coaches and trainers and they helped us discover that athlete concussion awareness is becoming an increasing concern for parents and coaches. Devices are growing in popularity to aid in the detection and assessment of head injuries on the field. Equipment distribution needs to be efficient and painless for coaches and their teams. Athletic trainers need to be able to see multiple teams at once, take electronic notes in an evaluation and share information seamlessly with administration and coaches.
+    We took time to organize our most important user feedback and quotes in order to prioritize what problems we were going to solve for NWTN.
+    (AFFINITY MAPPING)
+    Our important takeaways that led us to our scope were:</p>
 
-    <section id="questions"  style="padding-top: 5%;" >
-      <p><strong>Research Question 1:</strong> Why are users dropping off after signing up?
-			The site was seeing a major decline in new users, but has a clientele of existing users. Once users get past the initial confusion of the landing page, it’s more likely they’ll stick around. We wanted to figure out how we would help more users get past this point.</p>
+    <p>While most parents and coaches were aware and concerned for athletes safety in preventing concussion, there were parents who were not concerned about injury and have an attitude that players need to “Sack up and understand risking injury is part of playing a sport.”</p>
+    <p>Trainers and coaches are better playing it safe than sorry, because kids often won’t do what’s best for their wellness and health in many situations.</p>
+    <p>Parents were hesitant to let their child go back onto the field if they sustained a head injury while playing as opposed to other injuries such as broken bones or sprains.</p>
+    <p>Equipment distribution and collection methods were important to consider because things don’t always get returned or get broken by reckless handling.</p>
+    <p>Many schools and programs have a limited budget so they are cost conscious and may have to resort to methods such as fund raising to be able to gain access to impact detection devices.</p>
 
+    <p>Because there is equal concern for preventing head injuries amongst multiple archetypes, we wanted to test providing multiple interfaces for different types of users. This was to ensure the learning curve would be reduced to enable users to get to using NWTN as painlessly as possible.</p>
+    <p>Another major focus for my team and I was expanding on the current pocket SCAT concept NWTN had adopted from the previous UX work. Many trainers claimed this would make their day to day lives easier, but coches didn’t understand the medical terminology. This is an example where it would be important to have multiple interfaces. A trainer needs access to an in-depth digital SCAT while coaches just want to conduct simple field side analyses.</p>
+    <p>We chose to focus our scope on these points when creating our multiple question problem statement.</p>
+      <p class="problem">
+      How can the UX team create streamlined interfaces for users who share information but have different needs?
 
-      <p><strong>Research Question 2:</strong> What are the pain points of current and prospective users?
-			Not only were there obvious pain points in the dashboard, but Eric sent along a list of customer feedback that indicated there was user dissatisfaction throughout the entire site.</p>
-
-
-      <p><strong>Research Question 3:</strong> Why would a target user, not currently using the product, not want to transition to RentApplication?
-			Especially because so many target users are still using a paper application process. How could we make users excited about transitioning to a digital process in order to make their day-to-day work life easier?</p>
-
-      <figure style= "margin-bottom: 5%">
-        <img src="interview.png" class="img-responsive" style="margin-top: 5%;">
-        <figcaption class="text-muted">Jeff conducting a test of the original Rent Application site with Joe, a real estate agent</figcaption>
-      </figure>
-		</section>
-
-    <p>We also asked participants to run through a couple of task flows that a user would likely complete to get an idea of the overall goals and needs of the target user using Rent Application. These were based around seeing how users would create an application and expect to screen a prospective tenant.
-		We finished our testing with a set of qualitative questions to gain insight on where users frustrations lie. There was a mixture of negative opinions and positive experiences, the latter mainly coming from existing users who had gotten past the initial confusion of the landing page.<strong><p>What users said:</p></strong></p>
-
-
-  <figure>
-		<p class="userquote">“This site needs to act more like an app when used on a phone, so I can use it while showing a place to a prospective tenant.” - Susan, property manager</p>
-    <img src="ra1mobile.png" class="img-responsive">
-    <figcaption class="text-muted">Screenshot of the mobile interface. The navbar is obtrusive and the rest of the screen doesn't respond well to small screen sizes.</figcaption>
-  </figure>
-
-  <figure>
-		<p class="userquote">“I like that Rent Application is less work for the landlord and less involved than cozy” - Raul, landlord</p>
-    <img src="ra2.png" class="img-responsive">
-    <figcaption class="text-muted">Explanation of the process taken from their website. Users love that Rent Application makes the screening process automated once they figured out how to use the site.</figcaption>
-  </figure>
-
-  <figure>
-		<p class="userquote">“Way too much text on most pages, I don’t want to read all of this” - Joe, real estate agent</p>
-    <img src="ra3.png" class="img-responsive">
-    <figcaption class="text-muted">This was quoted across the board, users will not read tons of detailed text.</figcaption>
-  </figure>
-
-  <figure>
-		<p class="userquote">“Rent Application does what I need it to do for processing applicants easily and quickly - Plus it’s cheaper than other services I’ve used in the past” - Karmen, landlord</p>
-    <img src="ra4.png" class="img-responsive">
-    <figcaption class="text-muted">Breakdown of their report pricing from their site. Although their pricing is reasonable compared to competition, many users didn't understand what these costs went towards.</figcaption>
-  </figure>
-
-  <figure>
-		<p class="userquote">“The first time I visited the site, I was confused about what they offered and if it was targeted towards landlords” - Hannah, landlord</p>
-    <img src="ra5.png" class="img-responsive">
-    <figcaption class="text-muted">The founders of Rent Application both mentioned confusion amongst applicants and landlords around who the website is for.</figcaption>
-  </figure>
-
-		<p style="margin-top: 10%;">We took this feedback and pulled noteworthy comments and feedback to compile an affinity diagram that helped us group our data into important portions.</p>
-
-    <img src="aff_jason.jpeg" class="img-responsive" style="margin-top: 5%;">
-
-		<p style="font-size: 18px;"><strong>Positives:</strong>
-      <div class="row ">
-      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-		    <p class="post_it" style="background: #fcf283; margin: 4%;">Cheaper than other competitors</p>
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-		      <p class="post_it" style="background: #95dbd5; margin: 4%;">Users love the option of a free applicaiton</p>
-        </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-		        <p class="post_it" style="background: #fcf283; margin: 4%;">The process is very easy once you figure out how to use the website</p>
-          </div>
-            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-		          <p class="post_it" style="background: #95dbd5; margin: 4%;">Quick response with customer support email service</p>
-    </div>
-
-  </div>
-
-
-	  <p style="margin-top: 5%; font-size: 18px;"><strong>Frustrations:</p></strong>
-    <div class="row ">
-    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-      <p class="post_it" style="background: #f2abab; margin: 4%;">Poor mobile experience (This was a complaint amongst all existing participants)</p>
-      </div>
-      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-        <p class="post_it" style="background: #fccd80; margin: 4%;">Tenant application is very long on one page and not broken down into understandable sections</p>
-      </div>
-        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-          <p class="post_it" style="background: #f2abab; margin: 4%;">Save button on forms is not prevalent enough, this could also be solved with an auto save feature</p>
-        </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <p class="post_it" style="background: #fccd80; margin: 4%;">Getting logged out and sent back to the home page any time the back button is clicked, even if it wasn’t the previous page</p>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
-            <p class="post_it" style="background: #f2abab; margin: 4%;">Confusion about price points</p>
-          </div>
-      </div>
-
-      </div>
-	</div>
-</div>
-</section>
-
-<section class="synth">
-  <div class="col-xs-12 col-sm-8 col-sm-offset-2" style="padding-top: 10%;">
-
-    <h2>SYNTHESIZING OUR DATA</h2>
-      <p>We had a lot of insightful quotes and feedback from our users to work from, but we really wanted to empathize with our target audience on a deeper level. In order to better understand what a user is feeling throughout the process of using Rent Application, we created a customer journey map and a persona named Maria as an aggregation of our gathered user data.</p>
-          <img src="maria1.png" class="img-responsive" style="margin-top: 10%;">
-      		<img src="cjm_ra.png" class="img-responsive">
-          <img src="maria2.png" class="img-responsive">
-      <p>Our client claimed to not have many touch points with their users, so we presented our client with Maria as our synthesized user experience using Rent Application to help them gain perspective they may have never considered previously.
-			Maria’s journey was a mobile experience to highlight this aspect of users’ frustrations, so we intended to focus on the desktop experience primarily with the intention of creating adjusted mobile wireframes as well that would be presented as a deliverable for Eric to use and pass onto a UI designer in the future.
-			This process of analyzing and reflecting on the important takeaways led us to the following problem that we aimed to solve:</p>
-      <p class="problem">Users desire the features that Rent Application provides. However once new users create an account, users find that the product has imprecise directions, confusing organization, and faulty functionality. Repeated feelings of frustration cause new users to abandon Rent Application. How will we design interactions that <strong>support users along a clear and efficient pathway toward screening tenants in order to increase user retention?</strong></p>
+      How do we address the need for a field evaluation for coaches and an official SCAT test for Athletic trainers?</p>
   </div>
 </section>
 
@@ -228,11 +204,25 @@
 
   <div class="col-xs-12 col-sm-8 col-sm-offset-2">
 
-      <p>Now that we were aligned on the area of opportunity to improve Rent Application, we moved into our second sprint and started creating concepts on features that were best to test in our individual designs.</p>
+      <p>
+      Based on our scope, we finalized the following concepts we were going to test in each of our prototypes:
 
-			<p>We each voted for the ideas we found most crucial to include in our low-fidelity prototypes.</p>
+      Different user interfaces for trainers, coaches and parents
+      Pairing process of devices and players
+      Pocket SCAT concept from previous research</p>
 
-			<p><strong>Here are the concepts we chose to test in each prototype:</strong></p>
+			<p>(THREE PROTOTYPES SIDE BY SIDE)
+
+      We created three prototypes based on our design principles and tested eight users, who were either coaches or athletic trainers. We gathered a list of main conclusions based on the qualitative feedback participants gave us:</p>
+
+			<p>
+      More player identification for hit notification - number and last name isn’t enough for coaches to quickly recognize a player on the app.
+      Users loved the 3D visualization of each impact.
+      Having to enter ‘Live Mode’ is confusing and coaches are worried they would forget to turn it on before a game or practice.
+      Pocket SCAT is too technical for coaches, not technical enough for athletic trainers.
+      Average impact per game is probably unnecessary for NWTN's current focus.
+
+      Moving forward, we used these findings to guide our decisions for our final design. We needed to take what the current NWTN prototype was and make it more intuitive for users - This would include removing ‘Live Mode’ all together, simplifying the analysis tool for coaches and removing unnecessary language/details that distract from the main purpose of the product.</p>
 
 
 			<p style="margin-top: 5%;"><strong>Onboarding</strong></p>
@@ -258,8 +248,25 @@
 
       <figure>
         <img src="ra_principles.png" class="img-responsive" style="margin-top: 10%;">
-        <figcaption class="text-muted">We crafted a set of design principles to use as a guide while creating individual concepts.</figcaption>
+        <figcaption class="text-muted">The second sprint we focused on diverging and deciding on a design for our prototype. Before we diverged, we created a set of design principles that guided the design direction for the wireframes we created for NWTN:</figcaption>
       </figure>
+      <!---  (INCLUDE ICONS)
+
+      5 Minutes or Less
+      Coaches and trainers are in a hurry, pairing needs to be less than 5 minutes.
+
+      Many Moving Parts
+      The app needs to be prepared for keeping track of dozens of players.
+
+      Minimal Distraction
+      Interactions should be short and to the point whenever possible.
+
+      Handy Reference
+      Ensuring educational resources are offered and available troubleshooting.
+
+      Tunnel, not toolbox
+      The injury analysis needs to be a linear, straightforward process to quickly evaluate an athlete’s condition while on the sidelines. --->
+
 
   </div>
 </section>
@@ -297,113 +304,53 @@
 <div class="col-xs-12 col-sm-8 col-sm-offset-2" style="padding-top: 10%;">
   <h2>THE SOLUTION</h2>
 
-    <p>Within our prototypes, we all implemented:</p>
-		<p>- <strong>Reduced learning curve</strong> by providing users with guided options.</p>
-		<p>- </strong>Reduced ambiguity</strong> with less text and clearer language.</p>
-		<p>- <strong>Increased credibility</strong> by explaining how Rent Application works and how they are the best option for sending applications and screening potential tenants.</p>
-		<p>Our next step was to converge on one design for our final prototype. We all had really successful features so we chose to take these pieces of our individual prototypes and combine them to create our mid-fidelity prototype.</p>
+    <p>Concept testing we did during sprint two gave us a deeper understanding that there will be a multitude of different scenarios and situations that this device will be used in from the distribution situations, users, level of technical skills and relationship to athlete.</p>
+    <p>We found it beneficial to fulfill the needs of users by providing different, customized experiences. We sought out users in the following roles for our usability testing so we could narrow in on what their most essential needs and goals would be in using NWTN.</p>
+<p>Admin
 
-    <h2>BEST OF THE CONCEPTS</h2>
+I want to :
+Main job is to import and manage teams at the highest level. Not concerned with pairing or alert notifications. Summarize points.
+AT
+
+I want to :
+Concerned with receiving alerts, possibly from afar, for multiple teams. Doesn’t necessarily know kids by name.  Not concerned with pairing.
+Coach
+
+I want to :
+Responsible for pairing teams to devices. Usually the first person for first aid, possibly the only person, if an athletic trainer isn’t available.
+Athlete/parent
+
+I want to :
+Should only be able to view own profile and information.</p>
+
+    <h2>THE FINAL FEATURES</h2>
 
     <figure>
-		<p><strong>Jason’s landing page</strong></p>
+		<p><strong>Different interfaces for different users</strong></p>
       <img src="jason.png" class="img-responsive" style="margin-top: 5%;">
-		    <figcaption class="text-muted">Clear, professional language that allowed for a quick understanding of what Rent Application provides</figcaption>
+		    <figcaption class="text-muted">The ability to add team rosters and individual players is a necessity, but the process will differ for coaches and trainers. We adjusted what features should be viewable for different archetypes in order to reduce distraction and unnecessary content. For example, trainers would be able to add multiple schools, teams and athletes, while parents would only be allowed to add multiple players since they would just be monitoring their own children.</figcaption>
     </figure>
 
     <figure>
-		<p style="margin-top: 10%;"><strong>Jeff’s mental model dashboard</p></strong>
+		<p style="margin-top: 10%;"><strong>Bluetooth pairing of sensors for athletes</p></strong>
       <img src="jeff.png" class="img-responsive" style="margin-top: 5%;">
-		    <figcaption class="text-muted">Helped users understand the functionality of the separate application status folders</figcaption>
+		    <figcaption class="text-muted">Giving coaches the ability to pair players with a sensor as quickly as possible was our goal. Bluetooth allows for an initial set-up that would be more in-depth but will allow for automatic pairing once the sensors are paired to the app.</figcaption>
     </figure>
 
     <figure>
-		<p style="margin-top: 10%;"><strong>My paper style application</p></strong>
+		<p style="margin-top: 10%;"><strong>SCAT for trainers, basic test for coaches</p></strong>
       <img src="sarah.png" class="img-responsive" style="margin-top: 5%;">
-		    <figcaption class="text-muted">Creating a streamlined process that allows users to choose reports and create applications to send out as quickly as possible</figcaption>
+		    <figcaption class="text-muted">This is an area where coaches and trainers differ. Trainers wanted to see a SCAT test that is relatable to the current paper process the majority are using today and coaches wanted to conduct quick field-side assessments, they didn’t want to deal with a full SCAT assessment. There is a huge opportunity for NWTN to stand out amongst competition in multiple venues if there were a way to create a catered assessment for both roles.</figcaption>
     </figure>
 
 		<p style="margin-top: 10%;">For our final round of testing, we had users complete the task of creating an application and sending it to a prospective tenant on our desktop and mobile prototypes. We also asked them to think aloud as much as possible so we could understand what they liked and disliked.</p>
 
     </div>
 
-  <div class="col-xs-12 col-sm-8 col-sm-offset-2" style="padding-top: 5%;">
-    <h2>WHAT USERS LOVED</h2>
-
-			<p style="margin-top: 5%;"><strong>Landing page</strong></p>
-
-    <div class="container-fluid">
-			<div class="col-md-8">
-			  <img class="img-responsive" src="landing.png" style="padding: 7%;">
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive" src="landing2.png" style="padding: 7%; margin-top: 10%;">
-			</div>
-      <div class="col-md-12">
-			  <p style="text-align:center;" class="text-muted">Newspaper model that demonstrated what was most important.</p>
-      </div>
-    </div>
-
-			<p style="margin-top: 5%;"><strong>Testimonials</strong></p>
-      <div class="container-fluid">
-			<div class="col-md-12">
-        <figure>
-				  <img class="img-responsive" src="testimonials.png" style="padding: 7%;">
-			     </div>
-
-			      <figcaption class="text-muted">Included testimonials with real photos to increase trust and credibility.</figcaption>
-        </figure>
-      </div>
-
-			<p style="margin-top: 5%;"><strong>Folder organization structure</strong></p>
-
-			  <div class="col-md-12">
-          <figure>
-				    <img class="img-responsive" src="folders.png" style="padding: 7%;">
-			        </div>
-
-              <figcaption class="text-muted">Collapsable sections and showing only what was needed was greatly appreciated. “Properties with new reports” instead of “active applications” made the application section of the dashboard easier to understand for users.</figcaption>
-          </figure>
-
-        <p class="quote">“I really like the way this dashboard is laid out, it’s so simple.” - Hannah, Landlord</p>
-
-				<p style="margin-top: 5%;"><strong>Notifications</p></strong>
-
-				<div class="col-md-12">
-          <figure>
-					  <img class="img-responsive" src="notifications.png" style="padding: 7%;">
-				      </div>
-
-				        <figcaption class="text-muted">Added glanceable notification badges to allow users to know when they had new reports without having to locate by digging through the entire submitted applications section.</figcaption>
-            </figure>
-
-				<p style="margin-top: 5%;"><strong>Reports</p></strong>
-
-				<div class="col-md-12">
-          <figure>
-					  <img class="img-responsive" src="reports.png" style="padding: 7%;">
-				      </div>
-
-				        <figcaption class="text-muted">Included a bundled application package along with making pricing more understandable.</figcaption>
-            </figure>
-
-				<p style="margin-top: 5%;"><strong>Creating applications</strong></p>
-
-				<div class="col-md-12">
-          <figure>
-					  <img class="img-responsive" src="application.png" style="padding: 7%;">
-				      </div>
-
-				        <figcaption class="text-muted">Added pagination and easily viewable sections while creating an application.</figcaption>
-              </figure>
-
-
 			<p style="text-align: center; padding-top: 10%;">See our final prototype of Rent Application below</p>
       <div id="prototype" style="margin-top: 5px;">
-        CLICK TO VIEW <a id="proLink" href="https://invis.io/MV9OMMQWH">LIVE PROTOTYPE</a>
+        CLICK TO VIEW <a id="proLink" href="https://invis.io/B293UMLJP">LIVE PROTOTYPE</a>
       </div>
-  </div>
-</div>
 
 <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
   <h2>RECOMMENDATIONS</h2>
@@ -420,7 +367,7 @@
 </p>
       </div>
     </div>
-</div>
+
 
 
 <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" style="padding: 10% 0;">
@@ -437,190 +384,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-Screen 1 | Player Profile
-Record of individual player history.
-Key Features:
-Live Mode: In Live Mode the player is actively being tracked by the user
-Impact Threshold: Each player has a unique impact threshold that determines their ability to handle concussions
-Flag Player: Players can be flagged to indicate a history of injuries, or players to be watched.
-Impact History: Users can see the entire history of impacts on a player.
-Impact Notes: Users can take notes in the player profile.
-Performance:  NWTN can be also be used to track athletic performance.
-
-
-
-
-
-
-
-Screen 2 | Team View
-Team roster of current game/practice.
-Key Features
-Live Mode: This state indicates that players are actively being tracked by the user
-Recent Impact Indication:  The most recent impact on a player is displayed prominently to the left.
-Player Name and Number: Players are identified in two different ways
-Time Between Hits : Tracking when the last hit occurred.
-
-“Live Mode” featured prominently in our UX tests as well as our mid-fi UX designs. The idea of “Live Mode” worked as follows:
-User is paired with the player
-During game play or practice, the user turns on “Live Mode” in order to actively capture data.
-The User turns off Live Mode in order to stop capturing data.
-
-Our UX flows incorporated “Live Mode” and Player Name and Number because we felt that the recent impact indication and time between hits could be displayed differently as it was not used by testers to assess impacts.
-
-
-
-
-
-
-Screen 3  |  Hit Replay
-The visual replay can help the trainer or coach assess the injury.
-Features
-Visualize: Seeing the impact on the player through a simulated video.
-Graph: Showing the X, Y, Z impact to the trainer.
-
-
-
-
-Screen 4 | Hit Replay
-Graph visualization of impact.
-Features
-Visualize : Seeing the impact on the player through a simulated video.
-Graph : Showing the X, Y, Z impact to the trainer.
-
-The graph plotting the directions that the force changed in the athlete’s play is important to show the force at which the athlete’s body received the impact.
-
-
-
-Competitive Analysis
-
-We wanted to compare what features other competitors on the market had to offer. We created a matrix that displays how competitors compare in terms of impact detection and injury analysis.
-
-(Insert matrix)
-
-We looked at six major competitors on the market and two indirect competitors. Our main takeaways were:
-All options are similar in price ranging from $99-$185.
-Most offer basic impact detection, but not all offer additional assessment that could be a valuable asset to coaches and trainers.
-Additional software is often required for use in form of app or assessment device.
-
-In addition to this analysis, we conducted a heuristic analysis on three competitors and NWTN’s interface based on Nielsen’s 10 usability heurisitics. From reviewing the interfaces of Shockbox, Jolt, Headcase and NWTN, we learned:
-
-Concussion detection sensors and apps are a newly emerging product, there are currently no dominant players as of yet.
-None of the current competitors have a polished, modern interface.
-This analysis proved to us that NWTN is in a great position to stand out by offering a modern interface and an in-depth analysis tool along with impact detection. There are a good number of impact detection products available, but none offer an outstanding SCAT test. NWTN had a basic “Pocket SCAT” test in the works and we were eager to see how participants reacted to it in our upcoming concept testing.
-
-Understanding our users
-
-(INSERT GRAPHIC - COACHES, TRAINERS, ATHLETES)
-
-Although we were left with transcripts of previous interviews from a past UX design team, we conducted our own in order to learn as much as possible about the non-professional athletic world. Going into our interviews, we wanted to evaluate the role of athletic trainers and coaches in regards to equipment distribution, collection and management. We also were looking for those outside of the football realm because NWTN was moving away from targeting football to soccer players.
-
-We spoke with a mix of coaches and trainers and they helped us discover that athlete concussion awareness is becoming an increasing concern for parents and coaches. Devices are growing in popularity to aid in the detection and assessment of head injuries on the field. Equipment distribution needs to be efficient and painless for coaches and their teams. Athletic trainers need to be able to see multiple teams at once, take electronic notes in an evaluation and share information seamlessly with administration and coaches.
-We took time to organize our most important user feedback and quotes in order to prioritize what problems we were going to solve for NWTN.
-(AFFINITY MAPPING)
-Our important takeaways that led us to our scope were:
-While most parents and coaches were aware and concerned for athletes safety in preventing concussion, there were parents who were not concerned about injury and have an attitude that players need to “Sack up and understand risking injury is part of playing a sport.”
-Trainers and coaches are better playing it safe than sorry, because kids often won’t do what’s best for their wellness and health in many situations.
-Parents were hesitant to let their child go back onto the field if they sustained a head injury while playing as opposed to other injuries such as broken bones or sprains.
-Equipment distribution and collection methods were important to consider because things don’t always get returned or get broken by reckless handling.
-Many schools and programs have a limited budget so they are cost conscious and may have to resort to methods such as fund raising to be able to gain access to impact detection devices
-
-Because there is equal concern for preventing head injuries amongst multiple archetypes, we wanted to test providing multiple interfaces for different types of users. This was to ensure the learning curve would be reduced to enable users to get to using NWTN as painlessly as possible.
-
-Another major focus for my team and I was expanding on the current pocket SCAT concept NWTN had adopted from the previous UX work. Many trainers claimed this would make their day to day lives easier, but coches didn’t understand the medical terminology. This is an example where it would be important to have multiple interfaces. A trainer needs access to an in-depth digital SCAT while coaches just want to conduct simple field side analyses.
-
-We chose to focus our scope on these points when creating our multiple question problem statement.
-
-How can the UX team create streamlined interfaces for users who share information but have different needs?
-
-How do we address the need for a field evaluation for coaches and an official SCAT test for Athletic trainers?
-
-Based on our scope, we finalized the following concepts we were going to test in each of our prototypes:
-
-Different user interfaces for trainers, coaches and parents
-Pairing process of devices and players
-Pocket SCAT concept from previous research
-
-
-Our Design Process
-The second sprint we focused on diverging and deciding on a design for our prototype. Before we diverged, we created a set of design principles that guided the design direction for the wireframes we created for NWTN:
-
-(INCLUDE ICONS)
-
-5 Minutes or Less
-Coaches and trainers are in a hurry, pairing needs to be less than 5 minutes.
-
-Many Moving Parts
-The app needs to be prepared for keeping track of dozens of players.
-
-Minimal Distraction
-Interactions should be short and to the point whenever possible.
-
-Handy Reference
-Ensuring educational resources are offered and available troubleshooting.
-
-Tunnel, not toolbox
-The injury analysis needs to be a linear, straightforward process to quickly evaluate an athlete’s condition while on the sidelines.
-
-(THREE PROTOTYPES SIDE BY SIDE)
-
-We created three prototypes based on our design principles and tested eight users, who were either coaches or athletic trainers. We gathered a list of main conclusions based on the qualitative feedback participants gave us:
-
-More player identification for hit notification - number and last name isn’t enough for coaches to quickly recognize a player on the app.
-Users loved the 3D visualization of each impact.
-Having to enter ‘Live Mode’ is confusing and coaches are worried they would forget to turn it on before a game or practice.
-Pocket SCAT is too technical for coaches, not technical enough for athletic trainers.
-Average impact per game is probably unnecessary for NWTN's current focus.
-
-Moving forward, we used these findings to guide our decisions for our final design. We needed to take what the current NWTN prototype was and make it more intuitive for users - This would include removing ‘Live Mode’ all together, simplifying the analysis tool for coaches and removing unnecessary language/details that distract from the main purpose of the product.
-
-Our Solution
-
-Concept testing we did during sprint two gave us a deeper understanding that there will be a multitude of different scenarios and situations that this device will be used in from the distribution situations, users, level of technical skills and relationship to athlete.
-
-We found it beneficial to fulfill the needs of users by providing different, customized experiences. We sought out users in the following roles for our usability testing so we could narrow in on what their most essential needs and goals would be in using NWTN.
-
-
-Admin
-
-I want to :
-Main job is to import and manage teams at the highest level. Not concerned with pairing or alert notifications. Summarize points.
-AT
-
-I want to :
-Concerned with receiving alerts, possibly from afar, for multiple teams. Doesn’t necessarily know kids by name.  Not concerned with pairing.
-Coach
-
-I want to :
-Responsible for pairing teams to devices. Usually the first person for first aid, possibly the only person, if an athletic trainer isn’t available.
-Athlete/parent
-
-I want to :
-Should only be able to view own profile and information.
-
-
-Features included in our final prototype:
-
-(MID FI EXAMPLE)
-
-Different interfaces for different users
-The ability to add team rosters and individual players is a necessity, but the process will differ for coaches and trainers. We adjusted what features should be viewable for different archetypes in order to reduce distraction and unnecessary content. For example, trainers would be able to add multiple schools, teams and athletes, while parents would only be allowed to add multiple players since they would just be monitoring their own children.
-
-(MID FI EXAMPLE)
-
-Bluetooth pairing of sensors for athletes
-Giving coaches the ability to pair players with a sensor as quickly as possible was our goal. Bluetooth allows for an initial set-up that would be more in-depth but will allow for automatic pairing once the sensors are paired to the app.
-
-(MID FI EXAMPLE)
-
-SCAT for trainers, basic test for coaches
-This is an area where coaches and trainers differ. Trainers wanted to see a SCAT test that is relatable to the current paper process the majority are using today and coaches wanted to conduct quick field-side assessments, they didn’t want to deal with a full SCAT assessment. There is a huge opportunity for NWTN to stand out amongst competition in multiple venues if there were a way to create a catered assessment for both roles.
-
-(VIEW FINAL PROTOTYPE HERE)
