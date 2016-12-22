@@ -426,4 +426,9 @@ nav ul li a:hover {
     line-height: 130%;
     font-size: 14px;
 }
+.video{
+  max-width: 300px;
+  max-height: 200px;
+  margin: 0 0 0 -10%;
+}
 }
