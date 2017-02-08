@@ -234,7 +234,7 @@ nav ul li a:hover {
   padding: 0 10% 13% 5%;
   float: left;
   font-size: 570%;
-  font-family: 'Permanent Marker', serif;
+  font-family: 'Permanent Marker', 'Helvetica', sans-serif;
   font-family: 'Permanent Marker';
   font-weight: 400;
   font-style: normal;
@@ -246,7 +246,7 @@ nav ul li a:hover {
        url('http://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMmVSxyvLCPm9firj_jMeQtQ.woff') format('woff'),
        url('http://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMrg27BfaRSB61e9iDGqjWqk.ttf') format('truetype'),
        url('http://fonts.gstatic.com/l/font?kit=9vYsg5VgPHKK8SXYbf3sMnun_M_OMvfRqqwdtVuHdps&skey=84f486597b8007d1&v=v5#PermanentMarker') format('svg');
-color: #fff;
+  color: #fff;
   max-width: 100%;
   height: auto;
   line-height: 150%;
