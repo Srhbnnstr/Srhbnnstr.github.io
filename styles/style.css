@@ -78,9 +78,8 @@ h2{
 }
 h3{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #FFF;
+  color: #5a5a5a;
   letter-spacing: 3px;
-  font-weight: 100;
 }
 h4{
 font-family: 'Helvetica Neue', sans-serif;
@@ -137,7 +136,6 @@ a:focus, a:hover{
 .banner {
   width: 100%;
   height: auto;
-  padding-bottom: 10px;
 }
 li {
     padding: 0px 50px 30px 50px;
@@ -297,8 +295,9 @@ nav ul li a:hover {
     padding: 0;
     background-color: transparent;
     border-bottom: 0;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
     position: relative;
+    background-color: #fff;
 }
 @media only screen and (max-width: 40em){
 .banner{
@@ -322,6 +321,13 @@ nav ul li a:hover {
 #portfolio h2{
   color: #d6aa77;
 }
+#portfolio p{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: #5a5a5a;
+}
 @media screen and (max-width:40em) {
 #portfolio {
   padding-top: 15%;
@@ -335,6 +341,19 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 2% 0;
 }
+#mobileTemp{
+margin-top: 10%;
+}
+#personal{
+  margin-top: 10%;
+  text-decoration: underline;
+}
+.project{
+  background-color: #F4F2F2;
+  border: solid 1px #d6aa77;
+  color: #d6aa77;
+}
+
 /****** ABOUT ME ******/
 
 #about {
