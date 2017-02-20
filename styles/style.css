@@ -57,7 +57,7 @@
 /****** GENERAL ******/
 
 body {
-    background-color: white;
+    background-color: #f4f2f2;
     top: 0;
     overflow: auto;
     text-align: center;
@@ -311,13 +311,13 @@ nav ul li a:hover {
 
 #portfolio{
   width: 100%;
-  height: auto;
-  background-color: #fff;
+  height: 800px;
+  background-color: #f4f2f2;
   color: #fff;
   text-align: center;
   font-size: 180%;
   padding: 100px 0;
-  margin: 0 auto  ;
+  margin: 0 auto;
 }
 #portfolio h2{
   color: #d6aa77;
@@ -335,100 +335,6 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 2% 0;
 }
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-}
-
-.hovereffect .overlay {
-  position: absolute;
-  overflow: hidden;
-  width: 80%;
-  height: 80%;
-  left: 10%;
-  top: 10%;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
-}
-
-.hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-
-.hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.5);
-  -webkit-filter: brightness(0.5);
-}
-
-.hovereffect h2 {
-  color: #FFF;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 25px;
-  background-color: transparent;
-  padding: 6% 0 0 0;
-  opacity: 0;
-  margin-top: 15%;
-  vertical-align: bottom;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,-100%,0);
-  transform: translate3d(0,-100%,0);
-}
-
-@media screen and (max-width:40em) {
-.hovereffect h2 {
-  margin-top: 8%;
-  }
-}
-
-.hovereffect a, hovereffect p {
-  color: #FFF;
-  font-weight: 100;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-a:focus, a:active{
-  color: #d6aa77 !important ;
-}
-  #uber{
-    margin-top: 2%;
-  }
-
 /****** ABOUT ME ******/
 
 #about {
@@ -436,7 +342,7 @@ a:focus, a:active{
   margin: 10% 0 10% 0;
   font-weight: 100;
   display: inline-block;
-  background-color: #f4f2f2;
+  background-color: #fff;
   height: 100%;
   width: auto;
   letter-spacing: 1px;
