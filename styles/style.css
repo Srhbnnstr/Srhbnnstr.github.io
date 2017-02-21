@@ -367,6 +367,22 @@ margin-top: 10%;
   border: solid 2px #d6aa77;
   color: #d6aa77;
 }
+@media screen and (max-width:50em) {
+    .project{
+      border: none
+      text-decoration: underline;
+    }
+    #uberInfo{
+    margin-top: 10%;
+    }
+}
+@media screen and (max-width:36em) {
+    }
+    #uberInfo{
+    margin-top: 5%;
+    }
+}
+
 
 /****** ABOUT ME ******/
 
