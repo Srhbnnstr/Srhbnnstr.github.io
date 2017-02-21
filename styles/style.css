@@ -343,6 +343,9 @@ nav ul li a:hover {
   #portfolio p{
     font-size: 13px;
 }
+  #RAinfo{
+    margin-top: 5%;
+}
 }
 .img-responsive{
   max-width: 100%;
