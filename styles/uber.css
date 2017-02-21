@@ -181,7 +181,7 @@ nav ul li a:hover {
   position: absolute;
   bottom: 20%;
   padding: 5%;
-  font-family: 'Avenir', serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 2px;
   font-weight: 100;
   font-size: 180%;
@@ -193,7 +193,7 @@ nav ul li a:hover {
 #title{
   position: absolute;
   bottom: 50%;
-  font-family: 'Avenir', serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 2px;
   font-weight: 100;
   font-size: 180%;
