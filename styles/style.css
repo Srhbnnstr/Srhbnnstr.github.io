@@ -377,6 +377,8 @@ margin-top: 10%;
   .project{
     border: 0px;
     text-decoration: underline;
+    margin: 0 auto;
+    text-align: center;
 }
 }
 @media screen and (max-width:32em) {
