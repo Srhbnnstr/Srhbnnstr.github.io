@@ -325,6 +325,9 @@ nav ul li a:hover {
   font-size: 18px;
   color: #d6aa77;
 }
+#RAinfo{
+    margin-top: 10%;
+}
 @media screen and (max-width:50em) {
 #portfolio {
   padding-top: 15%;
