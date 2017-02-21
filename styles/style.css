@@ -350,7 +350,7 @@ div#uberInfo{
     margin-top: 5%;
 }
   #uberInfo{
-    margin-top: 18%;
+    padding-top: 18%;
 }
 }
 .img-responsive{
@@ -381,7 +381,7 @@ margin-top: 10%;
 }
 @media screen and (max-width:32em) {
   #uberInfo{
-    margin-top: 10%;
+    padding-top: 0;
 }
 }
 
