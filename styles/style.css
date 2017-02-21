@@ -78,8 +78,9 @@ h2{
 }
 h3{
   font-family: 'Helvetica Neue', sans-serif;
-  color: #5a5a5a;
-  letter-spacing: 3px;
+  color: #d6aa77;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 h4{
 font-family: 'Helvetica Neue', sans-serif;
@@ -114,19 +115,12 @@ a:hover{
   padding: 20px;
   background: none;
   margin-top: 1%;
-  color: #fff;
-  background: #5a5a5a;
-  border: none;
+  color: #d6aa77;
+  background-color: #fff;
+  border: solid 2px #d6aa77;
   border-radius: 0;
   text-decoration: none;
 }
-.btn-default:hover{
-  color: #fff;
-  background: #5a5a5a;
-  border-radius: 0;
-  border: none;
-}
-
 
 /****** NAVBAR ******/
 
@@ -255,7 +249,7 @@ nav ul li a:hover {
   position: absolute;
   bottom: 12%;
   padding: 5% 10% 10% 5%;
-  font-family: 'Avenir', serif;
+  font-family: 'Avenir', sans-serif;
   letter-spacing: 4px;
   font-weight: 100;
   font-size: 150%;
@@ -322,16 +316,19 @@ nav ul li a:hover {
   color: #d6aa77;
 }
 #portfolio p{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-weight: lighter;
   letter-spacing: 1px;
-  font-size: 24px;
-  color: #5a5a5a;
+  font-size: 18px;
+  color: #d6aa77;
 }
-@media screen and (max-width:40em) {
+@media screen and (max-width:50em) {
 #portfolio {
   padding-top: 15%;
   }
+#mobileTemp{
+  margin-bottom: -20%;
+}
 }
 .img-responsive{
   max-width: 100%;
@@ -350,7 +347,7 @@ margin-top: 10%;
 }
 .project{
   background-color: #F4F2F2;
-  border: solid 1px #d6aa77;
+  border: solid 2px #d6aa77;
   color: #d6aa77;
 }
 
@@ -413,7 +410,7 @@ margin-top: 10%;
   height: auto;
   padding: 20px;
   letter-spacing: 2px;
-  background-color: #fff;
+  background-color: #f4f2f2;
   border: solid 3px #d6aa77;
 }
 #contact p{
