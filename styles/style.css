@@ -335,7 +335,7 @@ nav ul li a:hover {
 #mobileTemp{
   margin-bottom: -20%;
 }
-#projectInfo{
+.projectInfo{
   display: none;
 }
 }
