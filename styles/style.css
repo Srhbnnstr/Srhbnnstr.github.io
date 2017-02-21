@@ -437,7 +437,6 @@ margin-top: 10%;
   font-size: 18px;
   color: #5a5a5a;
   padding-bottom: 1em;
-  margin-top: -4%;
 }
 #chat{
   color: #d6aa77;
@@ -498,6 +497,9 @@ label{
     height: 100%;
     width: auto;
     margin: 15% 5% 5% 5%;
+  }
+  #contact p{
+    margin-top: -4%;
   }
   .btn-default {
     font-size: 14px;
