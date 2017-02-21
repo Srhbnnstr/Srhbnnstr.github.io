@@ -328,6 +328,9 @@ nav ul li a:hover {
 #RAinfo{
     margin-top: 10%;
 }
+#uberInfo{
+    margin-top: 10%;
+}
 @media screen and (max-width:50em) {
 #portfolio {
   padding-top: 15%;
@@ -367,6 +370,13 @@ margin-top: 10%;
   border: solid 2px #d6aa77;
   color: #d6aa77;
 }
+@media screen and (max-width:40em) {
+  .project{
+    border: 0px;
+    text-decoration: underline;
+}
+}
+
 
 /****** ABOUT ME ******/
 
