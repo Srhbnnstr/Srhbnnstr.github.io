@@ -71,13 +71,14 @@ h1{
   font-weight: 200;
 }
 h2{
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 200;
 }
 h3{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Avenir', sans-serif;
+  font-size: 80%;
   color: #d6aa77;
   letter-spacing: 2px;
   font-weight: bold;
@@ -260,6 +261,9 @@ nav ul li a:hover {
   line-height: 150%;
 }
 @media only screen and (max-width: 50em){
+  h1{
+    font-size: 200%;
+  }
   #hero{
     position: absolute;
     letter-spacing: 1px;
@@ -328,6 +332,9 @@ nav ul li a:hover {
   }
 #mobileTemp{
   margin-bottom: -20%;
+}
+#projectInfo{
+  margin-top: -10%;
 }
 }
 @media screen and (max-width:40em) {
