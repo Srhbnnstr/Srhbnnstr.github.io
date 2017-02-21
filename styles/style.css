@@ -336,13 +336,10 @@ nav ul li a:hover {
   margin-bottom: -20%;
 }
 #projectInfo{
-  margin-top: -10%;
+  display: none;
 }
 }
 @media screen and (max-width:50em) {
-  #portfolio .btn-default{
-    display: none;
-  }
   #portfolio p{
     font-size: 13px;
 }
