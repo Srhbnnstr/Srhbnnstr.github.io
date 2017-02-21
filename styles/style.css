@@ -328,7 +328,7 @@ nav ul li a:hover {
 #RAinfo{
     margin-top: 10%;
 }
-#portfolio #uberInfo{
+div#uberInfo{
     margin-top: 10%;
 }
 @media screen and (max-width:50em) {
