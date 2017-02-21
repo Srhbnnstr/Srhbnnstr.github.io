@@ -349,6 +349,9 @@ div#uberInfo{
   #RAinfo{
     margin-top: 5%;
 }
+  #uberInfo{
+    margin-top: 18%;
+}
 }
 .img-responsive{
   max-width: 100%;
@@ -374,6 +377,11 @@ margin-top: 10%;
   .project{
     border: 0px;
     text-decoration: underline;
+}
+}
+@media screen and (max-width:32em) {
+  #uberInfo{
+    margin-top: 10%;
 }
 }
 
