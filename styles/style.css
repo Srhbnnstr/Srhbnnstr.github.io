@@ -339,7 +339,7 @@ nav ul li a:hover {
   margin-top: -10%;
 }
 }
-@media screen and (max-width:40em) {
+@media screen and (max-width:50em) {
   #portfolio .btn-default{
     display: none;
   }
