@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 
 
 /****** GENERAL ******/
@@ -54,7 +54,7 @@ h6{
 p{
   font-size: 15px;
   color: #5a5a5a;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-align: left;
   font-weight: 100;
   line-height: 170%;
@@ -197,7 +197,7 @@ nav ul li a:hover {
   position: absolute;
   bottom: 20%;
   padding: 5%;
-  font-family: 'Avenir', serif;
+  font-family: 'Nunito', serif;
   letter-spacing: 2px;
   font-weight: 100;
   font-size: 180%;
@@ -209,7 +209,7 @@ nav ul li a:hover {
 #title{
   position: absolute;
   bottom: 50%;
-  font-family: 'Avenir', serif;
+  font-family: 'Nunito', serif;
   letter-spacing: 2px;
   font-weight: 100;
   font-size: 180%;
@@ -336,7 +336,7 @@ nav ul li a:hover {
   line-height: 200%;
   background-color: #f4f2f2;
   text-align: center;
-  font-family: "Avenir", sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
 }
