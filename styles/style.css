@@ -137,6 +137,9 @@ a:focus, a:hover{
   width: 100%;
   height: auto;
 }
+#img2{
+  display: none;
+}
 li {
     padding: 0px 50px 30px 50px;
     margin: 0;
@@ -210,7 +213,7 @@ nav ul li a:hover {
       display: inline-block;
   }
   li{
-    padding: 15px 20px 0 20px;
+    padding: 25px 20px 0 20px;
   }
   nav ul li a {
     font-size: 13px;
@@ -285,15 +288,33 @@ nav ul li a:hover {
     font-weight: 300;
 }
 }
+@media only screen and (max-width: 60em){
+.banner{
+  margin-top: 30px;
+}
+}
 @media only screen and (max-width: 36em){
   #hero{
     font-size: 250%;
+    bottom: 41%;
   }
   #subtext{
     font-size: 70%;
     font-weight: bold;
-}
-}
+    bottom: 40%;
+  }
+  .banner{
+    height: 100%;
+    width: auto;
+  }
+  .jumbotron img{
+    display: none;
+  }
+  #img2{
+    display: block;
+    margin-top: 15%;
+  }
+  }
 .jumbotron {
     padding: 0;
     background-color: transparent;
@@ -301,11 +322,6 @@ nav ul li a:hover {
     margin: 30px 0 0 0;
     position: relative;
     background-color: #fff;
-}
-@media only screen and (max-width: 40em){
-.banner{
-  margin-top: 30px;
-}
 }
 
 /****** PORTFOLIO ******/
