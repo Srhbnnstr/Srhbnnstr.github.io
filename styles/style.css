@@ -26,6 +26,7 @@
         opacity: 1;
     }
 }
+
 .fade-in {
     opacity: 0;
     -webkit-animation: fadeIn ease-in 2s;
