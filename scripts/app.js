@@ -13,8 +13,8 @@ $(document).ready(function(){
     });
 });
 
-  $('div.wrapper').fadeIn(1000);
-  
+(function () {
+    $('div.wrapper').fadeIn(1000);
 });
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

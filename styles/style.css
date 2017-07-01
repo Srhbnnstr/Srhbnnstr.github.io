@@ -105,6 +105,7 @@ a:hover{
   font-size: 16px;
   letter-spacing: 1px;
   padding: 20px;
+  width: 300px;
   background: none;
   margin-top: 1%;
   color: #fff;
@@ -362,6 +363,12 @@ div#uberInfo{
 .projectInfo{
   display: none;
 }
+#portfolio h3{
+  display: none;
+}
+.project{
+ display: none;
+}
 }
 @media screen and (max-width:50em) {
   #portfolio p{
@@ -393,10 +400,10 @@ margin-top: 10%;
   background-color: #d6aa77;
   border: solid 2px #d6aa77;
   color: #fff;
+  float: left;
 }
 @media screen and (max-width:40em) {
   .project{
-    border: 0px;
     margin: 0 auto;
     text-align: center;
 }
@@ -406,7 +413,14 @@ margin-top: 10%;
     padding-top: 0;
 }
 }
-
+#portfolio p{
+  text-align: left;
+  margin-bottom: 10%;
+}
+#portfolio h3{
+  text-align: left;
+  margin-bottom: 10%;
+}
 
 /****** ABOUT ME ******/
 
