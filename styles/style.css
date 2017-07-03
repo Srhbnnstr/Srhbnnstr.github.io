@@ -105,7 +105,7 @@ a:hover{
   font-size: 16px;
   letter-spacing: 1px;
   padding: 20px;
-  width: 300px;
+  width: 60%;
   background: none;
   margin-top: 1%;
   color: #fff;
@@ -118,6 +118,11 @@ a:hover{
   color: #d6aa77;
   background-color: #fff;
   border: solid 2px #d6aa77;
+}
+@media screen and (max-width:36em) {
+.btn-default {
+  width: 100%;
+}
 }
 
 /****** NAVBAR ******/
@@ -282,7 +287,7 @@ nav ul li a:hover {
 }
 @media only screen and (max-width: 60em){
 .banner{
-  margin-top: 30px;
+  margin-top: 10px;
 }
 }
 @media only screen and (max-width: 36em){
@@ -291,20 +296,19 @@ nav ul li a:hover {
     bottom: 41%;
   }
   #subtext{
-    font-size: 70%;
-    font-weight: bold;
+    font-size: 100%;
+    font-weight: bolder;
     bottom: 40%;
-  }
-  .banner{
-    height: 100%;
-    width: auto;
   }
   .jumbotron img{
     display: none;
   }
   #img2{
     display: block;
-    margin-top: 15%;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    background-size: cover;
   }
   }
 .jumbotron {
@@ -400,6 +404,7 @@ margin-top: 10%;
   border: solid 2px #d6aa77;
   color: #fff;
   float: left;
+  width: 100%;
 }
 @media screen and (max-width:40em) {
   .project{
