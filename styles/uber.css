@@ -190,6 +190,19 @@ nav ul li a:hover {
   height: auto;
   line-height: 200%;
 }
+#UIsubtext{
+  position: absolute;
+  bottom: 30%;
+  padding: 5%;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 180%;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  line-height: 200%;
+}
 #title{
   position: absolute;
   bottom: 50%;
@@ -234,6 +247,10 @@ nav ul li a:hover {
   text-align: center;
   padding: 5% 3% 10% 3%;
 }
+#UIsubtext{
+  font-size: 100%;
+  bottom: 15%;
+}
 .banner{
   height: 230px;
   width: 100%;
@@ -277,6 +294,13 @@ nav ul li a:hover {
   padding-bottom: 20%;
   margin: 0 auto;
 }
+#uiImg{
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
 @media only screen and (max-width: 60em){
 #img1{
   padding-top: 50%;
@@ -291,6 +315,11 @@ nav ul li a:hover {
   #img1{
     padding-top: 30%;
     margin: 0 auto;
+  }
+  #uiImg{
+    width: 60%;
+    height: auto;
+    margin-bottom: -40%;
   }
 .challenge{
   padding: 20% 5% 0 5%;
@@ -378,4 +407,16 @@ nav ul li a:hover {
   background-color: #f4f2f2;
   text-align: center;
   color: #5a5a5a;
+}
+
+/**** UBER UI *****/
+.mockUps{
+  margin top: 30%;
+  display: inline-block;
+}
+
+#hi-fi{
+  padding: 5%;
+  max-width: 90%;
+  height: auto;
 }
