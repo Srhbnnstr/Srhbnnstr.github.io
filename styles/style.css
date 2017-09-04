@@ -325,10 +325,14 @@ nav ul li a:hover {
   }
   }
   @media only screen and (max-width: 30em){
+    #hero{
+      font-size: 420%;
+      bottom: 20%;
+    }
     #subtext{
       font-size: 150%;
-      bottom: 12%;
-      width: 60%;
+      bottom: 2%;
+      width: 80%;
     }
 }
 .jumbotron {
