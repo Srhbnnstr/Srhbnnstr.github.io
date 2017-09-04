@@ -349,11 +349,6 @@ nav ul li a:hover {
 #top-buffer{
   margin-top: 50%;
 }
-@media screen and (max-width:50em) {
-#top-buffer {
-  margin-top: 25%;
-}
-}
 #portfolio{
   width: 100%;
   height: 800px;
@@ -374,39 +369,19 @@ nav ul li a:hover {
   font-size: 18px;
   color: #d6aa77;
 }
+#webInfo{
+    margin-top: 6%;
+}
 #RAinfo{
-    margin-top: 10%;
+  margin-top: 10%;
 }
-div#uberInfo{
-    margin-top: 10%;
-}
-@media screen and (max-width:50em) {
-#portfolio {
-  padding-top: 15%;
-  }
-#mobileTemp{
-  margin-bottom: -20%;
-}
-.projectInfo{
-  display: none;
+#portfolio p{
+  text-align: left;
+  margin-bottom: 10%;
 }
 #portfolio h3{
-  display: none;
-}
-.project{
- display: none;
-}
-}
-@media screen and (max-width:50em) {
-  #portfolio p{
-    font-size: 13px;
-}
-  #RAinfo{
-    margin-top: 5%;
-}
-  div#uberInfo{
-    padding-top: 13%;
-}
+  text-align: left;
+  margin-bottom: 10%;
 }
 .img-responsive{
   max-width: 100%;
@@ -417,7 +392,7 @@ div#uberInfo{
   padding: 2% 0;
 }
 #mobileTemp{
-margin-top: 10%;
+margin-top: 5%;
 }
 #personal{
   margin-top: 10%;
@@ -430,24 +405,33 @@ margin-top: 10%;
   float: left;
   width: 100%;
 }
-@media screen and (max-width:40em) {
+@media screen and (max-width:61em) {
+#top-buffer {
+  margin-top: 25%;
+  }
+  #webInfo{
+      margin-top: 5%;
+  }
+  #portfolio p{
+    font-size: 14px;
+  }
+#portfolio {
+  padding-top: 15%;
+  }
+#mobileTemp{
+   margin: 5% 0%;
+}
+}
+@media screen and (max-width:48em) {
+  #portfolio h3{
+    display: none;
+  }
+  .projectInfo{
+    display: none;
+  }
   .project{
-    margin: 0 auto;
-    text-align: center;
-}
-}
-@media screen and (max-width:32em) {
- div#uberInfo{
-    padding-top: 0;
-}
-}
-#portfolio p{
-  text-align: left;
-  margin-bottom: 10%;
-}
-#portfolio h3{
-  text-align: left;
-  margin-bottom: 10%;
+    display: none;
+  }
 }
 
 /****** ABOUT ME ******/
