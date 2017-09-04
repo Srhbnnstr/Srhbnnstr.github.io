@@ -297,6 +297,7 @@ nav ul li a:hover {
   }
   #subtext{
     font-size: 100%;
+    text-align: left;
     font-weight: bolder;
     bottom: 40%;
   }
