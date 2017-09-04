@@ -280,10 +280,22 @@ nav ul li a:hover {
     position: absolute;
     bottom: 9%;
     padding: 5% 10% 10% 5%;
-    font-size: 120%;
+    font-size: 160%;
     letter-spacing: 2px;
     font-weight: 300;
 }
+}
+@media only screen and (max-width: 40em){
+  #hero{
+    font-size: 400%;
+    text-align: left;
+  }
+  #subtext{
+    font-size: 140%;
+    text-align: left;
+    font-weight: bolder;
+    bottom: 10%;
+  }
 }
 @media only screen and (max-width: 60em){
 .banner{
@@ -292,14 +304,14 @@ nav ul li a:hover {
 }
 @media only screen and (max-width: 36em){
   #hero{
-    font-size: 250%;
-    bottom: 41%;
+    font-size: 420%;
+    bottom: 30%;
   }
   #subtext{
-    font-size: 100%;
-    text-align: left;
+    font-size: 160%;
     font-weight: bolder;
-    bottom: 40%;
+    bottom: 12%;
+    width: 55%;
   }
   .jumbotron img{
     display: none;
@@ -312,6 +324,13 @@ nav ul li a:hover {
     background-size: cover;
   }
   }
+  @media only screen and (max-width: 30em){
+    #subtext{
+      font-size: 150%;
+      bottom: 12%;
+      width: 60%;
+    }
+}
 .jumbotron {
     padding: 0;
     background-color: transparent;
