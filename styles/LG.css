@@ -7,7 +7,6 @@ body {
     background-color: white;
     top: 0;
     overflow: auto;
-    padding: 0;
     margin: 0 auto;
 }
 h1{
@@ -98,8 +97,6 @@ a:focus, a:hover{
   height: auto;
   padding-bottom: 10px;
   margin-top: 3%;
-  filter: brightness(0.5);
-  -webkit-filter: brightness(0.5);
 }
 li{
   padding: 20px 20px 0 20px;
@@ -177,31 +174,8 @@ nav ul li a:hover {
   text-align: center;
   font-size: 24px;
 }
-#subtext{
-  position: absolute;
-  bottom: 20%;
-  padding: 5%;
-  font-family: 'Nunito', sans-serif;
-  letter-spacing: 2px;
-  font-weight: 100;
-  font-size: 180%;
-  color: #fff;
-  max-width: 100%;
-  height: auto;
-  line-height: 200%;
-}
-#UIsubtext{
-  position: absolute;
-  bottom: 30%;
-  padding: 5%;
-  font-family: 'Nunito', sans-serif;
-  letter-spacing: 2px;
-  font-weight: 100;
-  font-size: 180%;
-  color: #fff;
-  max-width: 100%;
-  height: auto;
-  line-height: 200%;
+#context{
+margin: 8% 0%;
 }
 #title{
   position: absolute;
@@ -217,6 +191,19 @@ nav ul li a:hover {
   text-align: center;
   margin: 0 auto;
 }
+#UIsubtext{
+  position: absolute;
+  bottom: 30%;
+  padding: 5%;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 180%;
+  color: #fff;
+  max-width: 100%;
+  height: auto;
+  line-height: 200%;
+}
 .jumbotron {
     padding: 0;
     background-color: transparent;
@@ -224,29 +211,11 @@ nav ul li a:hover {
     margin: 0 auto;
     position: relative;
 }
-@media only screen and (max-width: 40em){
 .banner{
-  height: 230px;
-  width: 100%;
-}
-}
-@media only screen and (max-width: 60em){
-#subtext{
-  bottom: 10%;
-}
-}
-@media only screen and (max-width: 50em){
-#subtext{
-  font-size: 140%;
-}
+  filter: brightness(0.7);
+  -webkit-filter: brightness(0.7);
 }
 @media only screen and (max-width: 40em){
-#subtext{
-  font-size: 80%;
-  bottom: 3%;
-  text-align: center;
-  padding: 5% 3% 10% 3%;
-}
 #UIsubtext{
   font-size: 100%;
   bottom: 15%;
@@ -283,16 +252,8 @@ nav ul li a:hover {
   display: inline-block;
   text-align: center;
 }
-
-/******** CHALLENGE **********/
-
 .challenge{
-  padding: 20% 10% 0 0;
-}
-#img1{
-  padding-top: 30%;
-  padding-bottom: 20%;
-  margin: 0 auto;
+  padding: 15% 10% 0 0;
 }
 #uiImg{
   padding-top: 20%;
@@ -301,125 +262,31 @@ nav ul li a:hover {
   width: 100%;
   height: auto;
 }
-@media only screen and (max-width: 60em){
-#img1{
-  padding-top: 50%;
-  padding-bottom: 0;
-  margin: 0 auto;
-}
-  .challenge{
-    padding: 20% 0 20% 0;
-}
+#mindMap{
+  background-color: #f4f2f2;
+  padding-bottom: 10%;
+  margin: 5% 0%;
 }
 @media only screen and (max-width: 48em){
-  #img1{
-    padding-top: 30%;
-    margin: 0 auto;
-  }
-  h2{
-    text-align: center;
-  }
   #uiImg{
     width: 60%;
     height: auto;
     margin-bottom: -40%;
   }
+  h2{
+    text-align: center;
+  }
 .challenge{
   padding: 20% 5% 0 5%;
 }
 }
-.img-responsive{
-  margin: 0 auto;
-}
-#affinity{
-  padding: 5%;
-}
-.affinity{
-  margin-top: -15%;
-}
-@media only screen and (max-width: 70em){
-#affinity{
-  margin-top: 0;
-}
-}
-.problem{
-  margin: 5% 20%;
-  padding: 5%;
-  line-height: 200%;
-  background-color: #f4f2f2;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  letter-spacing: 1px;
-  font-size: 16px;
-}
-@media only screen and (max-width: 38em){
-  .problem{
-    margin: 0 auto;
-    padding: 5%;
-    line-height: 200%;
-    background-color: #f4f2f2;
-    text-align: center;
-    font-size: 16px;
-  }
-}
-#persona{
-  padding: 5% 0;
-}
-#robin{
-  padding: 5% 0;
-}
-#paper{
-  padding-bottom: 10%;
-}
-#style{
-  padding: 7% 0;
-}
-.quote{
-  margin: 5% 20%;
-  padding: 5%;
-  line-height: 200%;
-  background-color: #f4f2f2;
-  text-align: center;
-}
-@media only screen and (max-width: 38em){
-  .quote{
-    margin: 10% auto;
-    padding: 5%;
-    line-height: 200%;
-    background-color: #f4f2f2;
-    text-align: center;
-  }
-}
-#diverge{
-  margin-top: 20%;
-}
-#concepts p{
-  padding: 0 5%;
-}
-.mid-fi p{
-  text-align: center;
-}
-#paper{
-  background-color: #e2e2e2;
-  padding: 5%;
-}
-#prototype{
-  margin: 15% 20%;
-  padding: 5%;
-  line-height: 200%;
-  background-color: #f4f2f2;
-  text-align: center;
-  color: #5a5a5a;
-}
-
-/**** UBER UI *****/
-.mockUps{
-  margin top: 30%;
-  display: inline-block;
-}
+/******** mockups **********/
 
 #hi-fi{
   padding: 5%;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
+}
+#mockUps{
+  margin: 10%;
 }

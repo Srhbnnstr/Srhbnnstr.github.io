@@ -334,6 +334,10 @@ nav ul li a:hover {
       bottom: 2%;
       width: 80%;
     }
+  #img2{
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.7);
+  }
 }
 .jumbotron {
     padding: 0;
