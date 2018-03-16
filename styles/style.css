@@ -475,6 +475,9 @@ margin-top: 5%;
   }
 }
 @media screen and (max-width:48em) {
+  #portfolio{
+    padding: 15% 0;
+  }
   #portfolio h3{
     display: none;
   }
