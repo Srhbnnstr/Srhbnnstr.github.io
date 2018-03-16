@@ -1,5 +1,18 @@
 /* smooth scroll */
 
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top
+        }, 1000, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+
 var window_height;
 var header_height;
 var doc_height;
@@ -77,21 +90,6 @@ function resizeend() {
 (function () {
     $('div.wrapper').fadeIn(1000);
 });
-
-
-$(document).ready(function(){
-    $('a[href^="#"]').on('click',function (e) {
-        e.preventDefault();
-        var target = this.hash;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop':  $target.offset().top
-        }, 1000, 'swing', function () {
-            window.location.hash = target;
-        });
-    });
-});
-
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
