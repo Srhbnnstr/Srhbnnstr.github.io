@@ -521,6 +521,9 @@ margin-top: 5%;
   border: solid 2px #fff;
   color: #fff;
 }
+#about .resume:hover{
+  color: #d6aa77;
+}
 #about a{
   font-weight: bolder;
   color: #5a5a5a;
