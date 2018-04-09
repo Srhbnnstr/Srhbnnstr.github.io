@@ -218,7 +218,7 @@ a:focus, a:hover{
       font-weight: 200;
     }
     h1{
-      font-size: 18px;
+      font-size: 36px;
       font-weight: 200;
     }
     h2{
@@ -406,7 +406,7 @@ display: none;
 }
 #workTitle{
   font-family: "Permanent Marker", sans-serif;
-  color: #fff;
+  color: #d6aa77;
 }
 .workPic{
   width: 65%;
@@ -435,7 +435,17 @@ display: none;
   letter-spacing: 1px;
   font-size: 18px;
   color: #d6aa77;
-  margin-bottom: 6%;
+  margin-bottom: 2%;
+}
+.project{
+  width: 40%;
+  border: border: solid 2px #d6aa77;
+  color: #d6aa77;
+  background-color: #f4f2f2;
+}
+.project:hover{
+  background-color: #d6aa77;
+  color: #fff;
 }
 #webInfo{
     margin-top: 6%;
@@ -462,16 +472,13 @@ margin-top: 5%;
   margin-top: 10%;
   text-decoration: underline;
 }
-.project{
-  background-color: #d6aa77;
-  border: solid 2px #d6aa77;
-  color: #fff;
-  float: left;
-  width: 100%;
-}
 @media screen and (max-width:61em) {
   #portfolio p{
-    font-size: 14px;
+    font-size: 13px;
+    margin-bottom: 3%;
+  }
+  h2{
+  font-size: 120px:
   }
 }
 @media screen and (max-width:48em) {
@@ -485,14 +492,16 @@ margin-top: 5%;
     display: none;
   }
   .project{
-    display: none;
+    width: 90%;
+    height: 20%;
   }
+
 }
 
 /****** ABOUT ME ******/
 
 #about {
-  padding: 12%;
+  padding: 8%;
   font-weight: 100;
   display: inline-block;
   background-color: #d6aa77;
@@ -505,7 +514,7 @@ margin-top: 5%;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 32px;
   font-size: 16px;
-  margin-top: 1%;
+  margin-top: 2%;
   color: #fff;
   max-width: 100%;
   height: auto;
@@ -533,6 +542,12 @@ margin-top: 5%;
 }
 #like:hover{
   color: #d6aa77;
+}
+#ab{
+  font-family: 'Permanent Marker', sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
 @media screen and (max-width:50em) {
 #aboutMe{
