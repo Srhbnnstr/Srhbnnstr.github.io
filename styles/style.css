@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 /* fade animation */
 
 @-webkit-keyframes fadeIn {
@@ -57,32 +57,32 @@ body {
     margin: 0 auto;
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #d6aa77;
   letter-spacing: 3px;
   font-weight: 200;
 }
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #d6aa77;
   letter-spacing: 1px;
   font-weight: 200;
 }
 h3{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 80%;
   color: #d6aa77;
   letter-spacing: 1px;
 }
 h4{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
 font-weight: lighter;
 color: #fff;
 letter-spacing: 1px;
 margin-bottom: 10px;
 }
 p{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 hr{
   width: 50%;
@@ -101,7 +101,7 @@ a:hover{
   color: #5a5a5a;
 }
 .btn-default {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   padding: 20px;
@@ -160,7 +160,7 @@ a:focus, a:hover{
   }
   nav ul li {
       display: inline-block;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Nunito', sans-serif;
   }
   nav ul li a {
       color: #d6aa77;
@@ -234,7 +234,7 @@ a:focus, a:hover{
   padding: 0 10% 13% 5%;
   float: left;
   font-size: 570%;
-  font-family: 'Permanent Marker', 'Montserrat', sans-serif;
+  font-family: 'Permanent Marker', 'Nunito', sans-serif;
   font-weight: 400;
   font-style: normal;
   src: url('http://fonts.gstatic.com/s/permanentmarker/v5/9vYsg5VgPHKK8SXYbf3sMhl1E_8U4SpYtCavOB-IMDg.eot');
@@ -255,7 +255,7 @@ a:focus, a:hover{
   position: absolute;
   bottom: 12%;
   padding: 5% 10% 10% 5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   letter-spacing: 4px;
   font-weight: 100;
   font-size: 150%;
@@ -340,6 +340,7 @@ a:focus, a:hover{
         width: 150%;
         height: 100%;
       }
+    }
       @media only screen and (max-width: 30em){
         #hero{
           font-size: 250%;
@@ -436,7 +437,7 @@ display: none;
 }
 #workH1{
   color: #d6aa77;
-  font-family: 'Permanent Marker', 'Montserrat', sans-serif;
+  font-family: 'Permanent Marker', 'Nunito', sans-serif;
   margin-top: 0;
   padding: 50% 0;
 }
@@ -444,7 +445,7 @@ display: none;
   color: #d6aa77;
 }
 #portfolio p{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   letter-spacing: 1px;
   font-size: 18px;
@@ -530,7 +531,7 @@ margin-top: 5%;
   line-height: 40px;
 }
 #aboutMe {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-bottom: 32px;
   font-size: 16px;
   margin-top: 2%;
@@ -595,7 +596,7 @@ margin-top: 5%;
   background-color: #f4f2f2;
 }
 #contact p{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   letter-spacing: 1px;
   font-size: 16px;
@@ -608,7 +609,7 @@ margin-top: 5%;
   margin: 30px 0 25px 0;
 }
 p#email{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 200;
   margin-top: 5%;
 }
@@ -707,7 +708,7 @@ label{
       }
       nav ul li {
           display: inline-block;
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Nunito', sans-serif;
           padding: 0 8%;
           margin-top: 5%;
       }

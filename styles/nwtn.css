@@ -91,6 +91,9 @@ figcaption{
     background: #d6aa77;
     border: none;
   }
+  #navName{
+    font-family: "Permanent Marker", sans-serif;
+  }
 
 /****** NAVBAR ******/
 
@@ -125,10 +128,10 @@ nav ul li {
 }
 nav ul li a {
   color: #d6aa77;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   letter-spacing: 2px;
-  padding-bottom: 30%;
+  padding-bottom: 2%;
   background-color: #fff;
   display: inline-block;
   text-decoration: none;
