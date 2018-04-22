@@ -340,7 +340,11 @@ a:focus, a:hover{
         width: 150%;
         height: 100%;
       }
+<<<<<<< HEAD
     }
+=======
+}
+>>>>>>> 33f36c581515b4d3adfd5f91ff0eca1bb71f8c08
       @media only screen and (max-width: 30em){
         #hero{
           font-size: 250%;
